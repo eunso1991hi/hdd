@@ -58,7 +58,7 @@ var page = {
 			if (targetTimer.length > 0) {
 				var thisDate = new Date(),
 					changeDate = new Date(2024, 7, 29, 23, 59, 59);
-					
+
 				if(changeDate.getTime() < thisDate.getTime()){
 					console.log('link change');
 					targetTimer.attr("href", "https://bit.ly/3M6fbFy");
@@ -80,17 +80,17 @@ var page = {
 			console.log('onComplete')
 			// lenis.start();
 			// $('html, body').removeClass("noScroll")
-			
+
 		},
 
 		// 메인 헤더 숨기기
 		headerControl: function(){
-			const showNav = gsap.from("#header", { 
+			const showNav = gsap.from("#header", {
 				yPercent: -100,
 				paused: true,
 				duration: 0.3
 			}).progress(1);
-			
+
 			ScrollTrigger.create({
 				start: "top top",
 				end: "max",
@@ -103,7 +103,7 @@ var page = {
 
 		// 메인 모션
 		mainMotion : function(){
-			
+
 			let breakPoint = 1080;
 			let mm = gsap.matchMedia();
 			let easeCubic = "cubic-bezier(.755,.05,.855,.06)";
@@ -115,9 +115,9 @@ var page = {
 				is767: `(max-width: 767px)`,
 				isStandbyme: `(max-width: ${ breakPoint }px) and (min-height: 1800px)`,
 			}, (context) => {
-	
+
 				let { isDesktop, is1080, isMobile, is767, isStandbyme } = context.conditions;
-	
+
 				// console.log(isDesktop ? "Desktop" : "Mobile")
 
 				const aniIntro = gsap.timeline({
@@ -147,7 +147,7 @@ var page = {
 
 				if (isDesktop) {
 					console.log("isDesktop")
-						
+
 					// 휠 섹션이동
 					// const scrollToNextSection = gsap.timeline({
 					// 	scrollTrigger: {
@@ -174,7 +174,7 @@ var page = {
 							.to(".main_intro .wrap_content", {autoAlpha: 1, ease: "Power1.easeInOut", duration: 0.7, delay: 0.4}, "intro-scene2")
 							.to(".main_intro .wrap_bg", {width: "calc(100% - 12rem)", height: "calc(100% - 21rem)", x: 60, y: 150, ease: "Power1.easeInOut", duration: 0.7}, "intro-scene3")
 							.to("#header", {y: 0, ease: "Power1.easeInOut", duration: 0.7, overwrite: "auto"}, "intro-scene3")
-					
+
 					// 스토리 ani 실행시점
 					// ScrollTrigger.create({
 					// 	animation: aniStory,
@@ -185,7 +185,7 @@ var page = {
 					// 	id: "aniStory"
 					// });
 
-				} 
+				}
 				else if (is1080) {
 					console.log("1080")
 					aniIntro.to("body, html", { scrollTop: 0})
@@ -214,11 +214,11 @@ var page = {
 							.to(".main_intro .wrap_text", { autoAlpha: 0, ease: "Power1.easeInOut", duration: 0.7, delay: 0.2}, "intro-scene2")
 							.to(".main_intro .wrap_content", {autoAlpha: 1, ease: "Power1.easeInOut", duration: 0.7, delay: 0.4}, "intro-scene2")
 							.to(".main_intro .wrap_bg", {
-								x: 18, 
+								x: 18,
 								width: "calc(100% - 3.6rem)",
 								y: is767 ? 105 : 150,
 								height: is767 ? "calc(100% - 12.5rem)" : "calc(100% - 17rem)",
-								ease: "Power1.easeInOut", 
+								ease: "Power1.easeInOut",
 								duration: 0.7
 							}, "intro-scene3")
 							.to("#header", {y: 0, ease: "Power1.easeInOut", duration: 0.7, overwrite: "auto"}, "intro-scene3")
@@ -348,7 +348,7 @@ var page = {
 					},
 				},
 			});
-			
+
 			this.storySwiperImg.controller.control = this.storySwiperText;
 			this.storySwiperText.controller.control = this.storySwiperImg;
 		},
@@ -358,7 +358,7 @@ var page = {
 		mainBannerType01_slide: function () {
 			let textTab = ['사전예약 고객 혜택', '더 현대적인 선물', '설 특별 할인 혜택'];
 			let slideSpeed = 1000;
-			
+
 			// Swiper1 설정
 			const swiper1 = new Swiper('.swiperBanner1', {
 				autoplay: {
@@ -377,7 +377,7 @@ var page = {
 					prevEl: '.swiper-button-prev',
 				},
 			});
-			
+
 			// Swiper2 설정
 			const swiper2 = new Swiper('.swiperBanner1', {
 				pagination: {
@@ -389,35 +389,35 @@ var page = {
 				},
 				effect: 'fade',
 			});
-			
+
 			// 슬라이드 상태 관리 변수
 			let isPlaying = true;
-			
+
 			// 토글 버튼
 			$('.stop-btn').on('click', function () {
 				if (isPlaying) {
 						// 재생 중이면 일시정지
 						swiper1.autoplay.stop();
-						swiper2.autoplay.stop();
+						//swiper2.autoplay.stop();
 						$(this).addClass('paused'); // 버튼에 'paused' 클래스 추가
 						$(this).find('.btn-text').text('재생'); // 버튼 텍스트 변경
 						isPlaying = false;
 					} else {
 					// 일시정지 상태면 재생
 					swiper1.autoplay.start();
-					swiper2.autoplay.start();
+					//swiper2.autoplay.start();
 					$(this).removeClass('paused'); // 'paused' 클래스 제거
 					$(this).find('.btn-text').text('일시정지'); // 버튼 텍스트 변경
 					isPlaying = true;
 				}
 			});
-			
+
 			// Swiper 간 컨트롤 연동
 			swiper1.controller.control = swiper2;
 			swiper2.controller.control = swiper1;
 		},
-		
-		
+
+
 		// 메인 배너 타입2
 		banner02_swiper : null,
 		mainBannerType02_slide : function(){
