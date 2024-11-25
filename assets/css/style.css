@@ -2558,7 +2558,7 @@ br.br-pc {
     width: 7.6rem;
     height: 4.8rem;
     text-indent: -9999px;
-    background-image: url("/assets/images/common/flag_ranking_best.png");
+    background-image: url("/hdd/assets/images/common/flag_ranking_best.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2584,7 +2584,7 @@ br.br-pc {
     text-indent: -9999px;
     vertical-align: middle;
     background-color: #fff;
-    background-image: url("/assets/images/common/flag_esg_lowcarbon.png");
+    background-image: url("/hdd/assets/images/common/flag_esg_lowcarbon.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2604,7 +2604,7 @@ br.br-pc {
     text-indent: -9999px;
     vertical-align: middle;
     background-color: #fff;
-    background-image: url("/assets/images/common/flag_esg_nonpesticide.png");
+    background-image: url("/hdd/assets/images/common/flag_esg_nonpesticide.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2624,7 +2624,7 @@ br.br-pc {
     text-indent: -9999px;
     vertical-align: middle;
     background-color: #fff;
-    background-image: url("/assets/images/common/flag_esg_gap.png");
+    background-image: url("/hdd/assets/images/common/flag_esg_gap.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -2840,7 +2840,7 @@ br.br-pc {
     height: 3.6rem;
     text-indent: -9999px;
     background: transparent;
-    background-image: url("/assets/images/common/ic_close4.png");
+    background-image: url("/hdd/assets/images/common/ic_close4.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -2850,7 +2850,7 @@ br.br-pc {
     height: 1.8rem;
     text-indent: -9999px;
     background: transparent;
-    background-image: url("/assets/images/common/ic_close3.png");
+    background-image: url("/hdd/assets/images/common/ic_close3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -2860,7 +2860,7 @@ br.br-pc {
     height: 3.6rem;
     text-indent: -9999px;
     background: transparent;
-    background-image: url("/assets/images/common/ic_share.png");
+    background-image: url("/hdd/assets/images/common/ic_share.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.6rem auto;
@@ -2872,7 +2872,7 @@ br.br-pc {
     border-radius: 50%;
     border: 0.1rem solid #CCC;
     background: transparent;
-    background-image: url("/assets/images/common/ic_share2.png");
+    background-image: url("/hdd/assets/images/common/ic_share2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2rem auto;
@@ -2884,7 +2884,7 @@ br.br-pc {
     border-radius: 50%;
     border: 0.1rem solid #CCC;
     background: transparent;
-    background-image: url("/assets/images/common/ic_share3.png");
+    background-image: url("/hdd/assets/images/common/ic_share3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2rem auto;
@@ -2895,7 +2895,7 @@ br.br-pc {
     text-indent: -9999px;
     background: #222;
     border-radius: 1.6rem;
-    background-image: url("/assets/images/common/ic_filter.png");
+    background-image: url("/hdd/assets/images/common/ic_filter.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2.8rem;
@@ -2905,7 +2905,7 @@ br.br-pc {
     height: 2.4rem;
     text-indent: -9999px;
     background: transparent;
-    background-image: url("/assets/images/common/ic_map.png");
+    background-image: url("/hdd/assets/images/common/ic_map.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2.4rem auto;
@@ -2917,7 +2917,7 @@ br.br-pc {
     border: 0.1rem solid #E5E5E5;
     text-indent: -9999px;
     background: transparent;
-    background-image: url("/assets/images/common/arr_6.png");
+    background-image: url("/hdd/assets/images/common/arr_6.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 3.2rem auto;
@@ -2953,7 +2953,7 @@ br.br-pc {
     width: 1.2rem;
     height: 1.2rem;
     margin-top: -0.6rem;
-    background-image: url("/assets/images/common/arr_7.png");
+    background-image: url("/hdd/assets/images/common/arr_7.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 0.8rem auto;
@@ -3041,7 +3041,7 @@ fieldset legend {
     display: block;
     width: 1.6rem;
     height: 1.7rem;
-    background-image: url("/assets/images/common/check_bg.png");
+    background-image: url("/hdd/assets/images/common/check_bg.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 1.6rem auto;
@@ -3095,7 +3095,7 @@ fieldset legend {
 .checkbox_ui.type2 input[type=checkbox]:checked + label:before {
     background-color: #497AB8;
     border: none;
-    background-image: url("/assets/images/common/ic_check1.png");
+    background-image: url("/hdd/assets/images/common/ic_check1.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 1.8rem;
@@ -3137,7 +3137,7 @@ fieldset legend {
     background: transparent;
 }
 .g_select_button:active .g_select_icon, .g_select_button:hover .g_select_icon, .g_select_button:focus .g_select_icon {
-    background-image: url("/assets/images/common/arr_5.png");
+    background-image: url("/hdd/assets/images/common/arr_5.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.4rem;
@@ -3160,7 +3160,7 @@ fieldset legend {
     width: 1.4rem;
     height: 1.4rem;
     margin-top: -0.7rem;
-    background-image: url("/assets/images/common/arr_5.png");
+    background-image: url("/hdd/assets/images/common/arr_5.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.4rem;
@@ -3261,7 +3261,7 @@ fieldset legend {
     width: 2.6rem;
     height: 2.3rem;
     text-indent: -9999px;
-    background-image: url("/assets/images/common/ic_search.png");
+    background-image: url("/hdd/assets/images/common/ic_search.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -3276,7 +3276,7 @@ fieldset legend {
     height: 7.2rem;
     background-color: #F5F5F5;
     padding: 0 3rem 0 7.4rem;
-    background-image: url("/assets/images/common/ic_search2.png");
+    background-image: url("/hdd/assets/images/common/ic_search2.png");
     background-repeat: no-repeat;
     background-position: 3rem 50%;
     background-size: 3.2rem;
@@ -3321,7 +3321,7 @@ fieldset legend {
     background-color: transparent;
     padding: 0 2.4rem 0 6.8rem;
     border: 0.1rem solid #E5E5E5;
-    background-image: url("/assets/images/common/ic_search3.png");
+    background-image: url("/hdd/assets/images/common/ic_search3.png");
     background-repeat: no-repeat;
     background-position: 2.4rem 50%;
     background-size: 3.2rem;
@@ -3384,7 +3384,7 @@ fieldset legend {
     width: 2.6rem;
     height: 2.3rem;
     text-indent: -9999px;
-    background-image: url("/assets/images/common/ic_search.png");
+    background-image: url("/hdd/assets/images/common/ic_search.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -3412,7 +3412,7 @@ fieldset legend {
     .hd_search .g_search2 .icon {
         width: 100%;
         height: 100%;
-        background-image: url("/assets/images/common/ic_search.png");
+        background-image: url("/hdd/assets/images/common/ic_search.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 2rem auto;
@@ -3434,7 +3434,7 @@ fieldset legend {
     .g_search .icon {
         width: 100%;
         height: 100%;
-        background-image: url("/assets/images/common/ic_search.png");
+        background-image: url("/hdd/assets/images/common/ic_search.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 2rem auto;
@@ -3585,32 +3585,32 @@ fieldset legend {
     border-radius: 0;
 }
 .g_pagination .pagination > button.prev {
-    background-image: url("/assets/images/common/arr_1.png");
+    background-image: url("/hdd/assets/images/common/arr_1.png");
 }
 .g_pagination .pagination > button.prev.active {
-    background-image: url("/assets/images/common/arr_2.png");
+    background-image: url("/hdd/assets/images/common/arr_2.png");
 }
 .g_pagination .pagination > button.next {
-    background-image: url("/assets/images/common/arr_1.png");
+    background-image: url("/hdd/assets/images/common/arr_1.png");
     transform: rotate(180deg);
 }
 .g_pagination .pagination > button.next.active {
-    background-image: url("/assets/images/common/arr_2.png");
+    background-image: url("/hdd/assets/images/common/arr_2.png");
 }
 .g_pagination .pagination > button.first {
-    background-image: url("/assets/images/common/arr_3.png");
+    background-image: url("/hdd/assets/images/common/arr_3.png");
     margin-right: -0.4rem;
 }
 .g_pagination .pagination > button.first.active {
-    background-image: url("/assets/images/common/arr_4.png");
+    background-image: url("/hdd/assets/images/common/arr_4.png");
 }
 .g_pagination .pagination > button.last {
-    background-image: url("/assets/images/common/arr_3.png");
+    background-image: url("/hdd/assets/images/common/arr_3.png");
     transform: rotate(180deg);
     margin-left: -0.4rem;
 }
 .g_pagination .pagination > button.last.active {
-    background-image: url("/assets/images/common/arr_4.png");
+    background-image: url("/hdd/assets/images/common/arr_4.png");
 }
 
 /*********** swiper navigation ***********/
@@ -3768,7 +3768,7 @@ fieldset legend {
     height: 1.8rem;
     margin-top: -0.9rem;
     text-indent: -9999px;
-    background-image: url("/assets/images/common/ic_close2.png");
+    background-image: url("/hdd/assets/images/common/ic_close2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -3791,7 +3791,7 @@ fieldset legend {
     width: 3.6rem;
     height: 3.6rem;
     text-indent: -9999px;
-    background-image: url("/assets/images/common/ic_close4.png");
+    background-image: url("/hdd/assets/images/common/ic_close4.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 3.6rem;
@@ -3877,7 +3877,7 @@ fieldset legend {
         width: 1.2rem;
         height: 1.2rem;
         margin-top: -0.6rem;
-        background-image: url("/assets/images/common/mobile/ic_close2.png");
+        background-image: url("/hdd/assets/images/common/mobile/ic_close2.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -4251,7 +4251,7 @@ fieldset legend {
 #footer .ft_row .ft_logo {
     width: 16rem;
     height: 2.2rem;
-    background-image: url("/assets/images/common/footer_logo.png");
+    background-image: url("/hdd/assets/images/common/footer_logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -4884,7 +4884,7 @@ fieldset legend {
     width: 1.7rem;
     height: 1.4rem;
     display: block;
-    background-image: url("/assets/images/common/ic_polygon.png");
+    background-image: url("/hdd/assets/images/common/ic_polygon.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
@@ -4981,7 +4981,7 @@ fieldset legend {
 #gate .gate_contents .bg_wrapper .bg {
     width: 100%;
     height: 100%;
-    background-image: url("/assets/images/gate/gate_main_pc.jpg");
+    background-image: url("/hdd/assets/images/gate/gate_main_pc.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -5053,7 +5053,7 @@ fieldset legend {
 }
 @media screen and (max-width: 1080px) {
     #gate .gate_contents .bg_wrapper .bg {
-        background-image: url("/assets/images/gate/gate_main_vertical.jpg");
+        background-image: url("/hdd/assets/images/gate/gate_main_vertical.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -5076,7 +5076,7 @@ fieldset legend {
         display: block;
     }
     #gate .gate_contents .bg_wrapper .bg {
-        background-image: url("/assets/images/gate/gate_main_mo.jpg");
+        background-image: url("/hdd/assets/images/gate/gate_main_mo.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -5226,7 +5226,7 @@ fieldset legend {
         background: #95B7DB;
     }
     #main .section.main-intro .section-inner .section-body .intro-list .intro-item:hover .item-util .btn-area::after {
-        background-image: url("/assets/images/main/arrow-hover.svg");
+        background-image: url("/hdd/assets/images/main/arrow-hover.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -5401,7 +5401,7 @@ fieldset legend {
     content: "";
     width: 5.2rem;
     height: 5.2rem;
-    background-image: url("/assets/images/main/arrow-default.svg");
+    background-image: url("/hdd/assets/images/main/arrow-default.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -5844,7 +5844,7 @@ fieldset legend {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-image: url("/assets/images/main/slide-arrow-button.svg");
+    background-image: url("/hdd/assets/images/main/slide-arrow-button.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -5859,13 +5859,13 @@ fieldset legend {
 #main .section.banner-type1 .swiperBanner1 .swiper-pagination-wrap .swiper-button .swiper-stop .stop-btn {
     width: 100%;
     height: 100%;
-    background-image: url("/assets/images/main/slide-stop-button.svg");
+    background-image: url("/hdd/assets/images/main/slide-stop-button.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
 }
 #main .section.banner-type1 .swiperBanner1 .swiper-pagination-wrap .swiper-button .swiper-stop .stop-btn.paused {
-    background-image: url("/assets/images/main/slide-play-button.svg");
+    background-image: url("/hdd/assets/images/main/slide-play-button.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -6213,7 +6213,7 @@ fieldset legend {
     color: #767676;
     font-style: normal;
     padding-top: 10rem;
-    background-image: url("/assets/images/common/ic_warning.png");
+    background-image: url("/hdd/assets/images/common/ic_warning.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: auto;
@@ -6423,7 +6423,7 @@ fieldset legend {
         width: 2.8rem;
         height: 2.8rem;
         text-indent: -9999px;
-        background-image: url("/assets/images/common/ic_plus.png");
+        background-image: url("/hdd/assets/images/common/ic_plus.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 1.6rem auto;
@@ -6433,7 +6433,7 @@ fieldset legend {
         transform: translateY(-50%);
     }
     #product .rec_keyword .keyword_wrapper .item .tit .btn_open.on {
-        background-image: url("/assets/images/common/ic_minus.png");
+        background-image: url("/hdd/assets/images/common/ic_minus.png");
     }
     #product .rec_keyword .keyword_wrapper .item .group {
         display: none;
@@ -7034,7 +7034,7 @@ fieldset legend {
     background-color: #95B7DB;
 }
 .thumb_list > ul > li a:hover .thumb_icon .icon_wrapper::after {
-    background: url("/assets/images/common/arr_9.png") no-repeat;
+    background: url("/hdd/assets/images/common/arr_9.png") no-repeat;
 }
 .thumb_list > ul > li picture {
     display: block;
@@ -7119,7 +7119,7 @@ fieldset legend {
     left: 50%;
     width: 2.8rem;
     height: 2.8rem;
-    background: url("/assets/images/common/arr_8.png") no-repeat;
+    background: url("/hdd/assets/images/common/arr_8.png") no-repeat;
     transform: translate(-50%, -50%);
     transition: 0.2s ease;
 }
@@ -8286,7 +8286,7 @@ fieldset legend {
     width: 3.6rem;
     height: 3.6rem;
     margin-top: -1.8rem;
-    background-image: url("/assets/images/common/ic_outlink.svg");
+    background-image: url("/hdd/assets/images/common/ic_outlink.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
