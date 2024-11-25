@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index,nofollow" />
+<meta name="format-detection" content="telephone=no" />
+<title>The HYUNDAI 명절 디지털 가이드북</title>
+<!-- <meta name="title" content="site title" />
+<meta name="keywords" content="site keyword" />
+<meta name="subject" content="site subject" />
+<meta name="description" content="site description" />
+<meta name="author" content="site author" />
+<meta name="copyright" content="site copyright" />
+<meta name="writer" content="site writer" /> -->
+
+<link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
+<link rel="stylesheet" href="/assets/css/swiper-8.3.1.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="/assets/favicon/favicon_16.svg">
+<link rel="icon" href="/favicon_16.svg">
+<!-- Libraries -->
+<script src="/assets/js/libs/jquery-3.6.0.js"></script>
+<script src="/assets/js/libs/jquery-ui.min.js"></script>
+<script src="/assets/js/libs/swiper-8.3.1.min.js"></script>
+<script src="/assets/js/libs/gsap.min.js"></script>
+<script src="/assets/js/libs/ScrollTrigger.min.js"></script>
+<script src="/assets/js/libs/ScrollToPlugin.min.js"></script>
+<script src="/assets/js/libs/lenis.min.js"></script>
+<!--// -->
+<script src="/assets/js/common-pub.js"></script>
+<script src="/assets/js/page-pub.js"></script>
+
+
+<script>
+$(function(){
+    commonPub.common();
+})
+</script>
+
+<!-- favicon -->
+<!-- <link rel="shortcut icon" href="/common/img/common/favicon.ico">  -->
+</head>
+ 
+<body>
+    <!-- header -->
+    <div class="skip_navi">
+    <ul>
+        <li><a href="#contents">본문 바로가기</a></li>
+        <li><a href="#gnb">주메뉴 바로가기</a></li>
+        <li><a href="#footer">페이지 하단 바로가기</a></li>
+    </ul>
+</div>
+
+
+<header id="header">
+	<div class="hd_wrapper">
+		<div class="logo_wrapper">
+			<div class="logo_bundle">
+				<h1 class="hd_logo">
+					<a href="#" class="btn_logo"><span class="sr_only">THE HYUNDAI</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="126" height="18" viewBox="0 0 126 18" fill="none">
+							<path d="M124.341 16.4264V0.714194H121.04L121.68 1.89424V16.4264H124.341ZM85.8363 16.4264V0.714194H83.0843C83.3321 1.13541 83.5395 1.5814 83.7033 2.0456V11.7599L76.3103 0.714539H73.0294L73.923 2.09582V16.4264H76.0343V5.3509L83.4699 16.4264H85.8363ZM69.0535 13.9801V0.707612H65.738L66.4253 1.89424V13.8138C65.7353 14.2842 64.9306 14.5356 64.1078 14.5377C63.6554 14.5247 63.2099 14.4179 62.7969 14.2236C62.384 14.0292 62.0118 13.751 61.7017 13.4051C61.3908 13.0589 61.1481 12.6517 60.9874 12.2069C60.8268 11.7621 60.7514 11.2884 60.7655 10.813V0.685791H57.4628L58.096 1.87103V11.6519C58.0903 12.3181 58.2109 12.979 58.4509 13.5959C58.6909 14.2128 59.0454 14.7735 59.4938 15.2453C59.9417 15.7163 60.4747 16.0888 61.0615 16.3411C61.6483 16.5934 62.2772 16.7203 62.9114 16.7146C64.8842 16.7146 66.0542 15.9921 67.7254 14.9572C68.2069 14.6604 68.6669 14.3267 69.1014 13.9586M54.4787 0.714194H51.0043L51.3965 1.89424L48.2807 7.58596L44.5525 0.714194H41.3749L46.6224 10.1611V16.4268H49.2919V10.0745L54.4787 0.714194ZM37.9214 16.4264V0.714194H34.6266L35.2532 1.89424V7.18141H29.2553V0.714194H25.9605L26.5861 1.89424V16.4264H29.2553V9.37317H35.2532V16.4268L37.9214 16.4264ZM95.961 0.707612H89.8254L90.4523 1.89424V16.4264H94.7441C96.0103 16.4309 97.2529 16.0675 98.3343 15.3766C98.7262 15.1532 99.1118 14.8855 99.5182 14.6541C100.578 13.9727 101.452 13.0149 102.055 11.874C102.658 10.7331 102.969 9.44796 102.958 8.14359C102.97 7.17111 102.799 6.20561 102.456 5.30243C102.112 4.39925 101.601 3.57615 100.954 2.88032C100.306 2.18597 99.5342 1.63319 98.6819 1.25394C97.8296 0.8747 96.9141 0.67653 95.9884 0.670898M98.053 13.757C97.3832 14.1436 96.6206 14.3171 95.8583 14.2561H93.1759V2.84811H94.6757C95.4248 2.86055 96.1641 3.02901 96.8506 3.34373C97.5371 3.65845 98.1571 4.11314 98.6747 4.68139C99.193 5.2505 99.5988 5.92164 99.8686 6.6561C100.138 7.39057 100.267 8.17381 100.247 8.96066C100.276 9.89364 100.09 10.8203 99.7049 11.6616C99.3193 12.5029 98.7456 13.2339 98.0326 13.7924M112.352 0.714194H109.463L109.945 1.89424L104.057 16.4264H107.194L106.781 15.2398L108.046 12.0997H114.044L115.799 16.4396H118.701L112.352 0.714194ZM108.913 9.99558L111.066 4.69351L113.212 9.99558H108.913ZM1.9247 5.30276L1.55957 6.29993H3.43078V12.6736H4.69718V6.29993H6.20359L6.5608 5.30242L1.9247 5.30276ZM12.2557 5.30276L12.5587 5.84516V8.33341H9.73804V5.30276H8.19696L8.47922 5.84516V12.6736H9.73804V9.36036H12.5584V12.6736H13.803V5.30276H12.2557ZM15.633 5.30276L15.9297 5.84516V12.6736H19.788L20.139 11.6671H17.1882V9.36036H19.788L20.139 8.35488H17.1882V6.29993H19.788L20.139 5.30242L15.633 5.30276Z" fill="#111111"/>
+						</svg>
+					</a>
+				</h1>
+				<!-- <button class="g_btn btn_arrow1 btn_toggle_gate">gate 닫기</button>
+				<div class="brand_gate">
+					<p class="brand_item"><a href="/gate">게이트 바로가기</a></p>
+				</div> -->
+			</div>
+			<nav id="gnb">
+				<ul>
+					<li class="sub_open">
+						<a href="#" class="menu recommend active">상품</a>
+						<div class="sub_wrapper">
+							<ul class="sub-list">
+								<li class="sub-item"><a href="#" class="sub-text">정육</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">과일</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">곶감 · 견과</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">버섯 · 삼</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">굴비 · 해산물</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">멸치 · 건어물</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">명인명촌</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">건강식품</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">와인 · 주류</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">커피 · 티</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">디저트 · 베이커리</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">그로서리</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">장 · 젓갈 · 반찬</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">리빙</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">상품권</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#" class="menu">배송안내</a></li>
+					<li><a href="#" class="menu">이벤트</a></li>
+					<li><a href="#" class="menu">스토리</a></li>
+				</ul>
+			</nav>
+			<div class="hd_search">
+				<!-- 검색 버튼 -->
+				<div class="g_search2">
+					<button class="btn_search search_layer_open" onclick="commonPub.searchLayerOpen();">
+						<span class="txt">검색어를 입력하세요</span>
+						<span class="icon">검색</span>
+					</button>
+				</div>
+				<!--// 검색 버튼 -->
+
+				<!-- 검색 레이어 -->
+				<div class="search_layer_wrapper" id="focus-start" tabindex="0">
+					<div class="layer_content">
+						<div class="layer_inner">
+							<div class="layer_header">
+								<p class="title">검색</p>
+							</div>
+							<div class="search_area">
+								<div class="g_search type1">
+									<input type="text" placeholder="검색어를 입력하세요">
+								</div>
+							</div>
+							<div class="keyword_area">
+								<div class="item">
+									<p class="tit">추천 검색어</p>
+									<div class="group">
+										<div class="tag">
+											<a href="#" class="btn_link type1">명인명촌</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">현대백화점상품권 혜택</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">곡물</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">더 현대적인 만남</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">현대백화점상품권 혜택</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<p class="tit">최근 검색어</p>
+
+									<!-- 검색어 있을 경우 -->
+									<div class="group">
+										<div class="tag">
+											<a href="#" class="btn_link type2">명인명촌</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">현대백화점상품권 혜택</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">곡물</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">더 현대적인 만남</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">현대백화점상품권 혜택</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">상품권</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+
+									</div>
+									<!--// 검색어 있을 경우 -->
+
+									<!-- 검색어 없을 경우 -->
+									 <!-- <div class="no_keyword">
+										<p class="text">최근 검색어가 없습니다.</p>
+									</div> -->
+									<!--// 검색어 없을 경우 -->
+								</div>
+							</div>
+							<div class="btn_area">
+								<button class="g_btn typeA1"><span>전체삭제</span></button>
+							</div>
+							<button type="button" id="focus-end" class="search_layer_close" onclick="commonPub.searchLayerClose();">
+								<span class="sr_only">검색창닫기</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<!--// 검색 레이어 -->
+			</div>
+		</div>
+	</div>
+</header>
+
+    <!--// header -->
+
+    <!-- subpage contents -->
+    <div id="contents">
+        <div id="search">
+            <!----- 컨텐츠 (s) ----->
+            <div class="subpage_wrapper search_wrapper">
+                
+                <div class="container w1200">
+                    <!-- 검색 -->
+                    <section class="search_area">
+                        <!-- <div class="g_search type1">
+                            <input type="text" placeholder="검색어를 입력하세요" value="현대명품">
+                        </div> -->
+                        <div class="result_text">
+                            <h2 class="text">
+                                <em>‘현대명품’</em> 에 대한 검색 결과입니다.
+                            </h2>
+                        </div>
+                    </section>
+                    <!--// 검색 -->
+        
+                    <!-- 검색필터 -->
+                    <section class="search_filter">
+                        <h3 class="sr_only">검색필터</h3>
+                        <div class="filter_header">
+                            <div class="select_area">
+                                <div class="g_select">
+                                    <span class="sr_only">방향키로 옵션을 선택해주세요.</span>
+                                    <label for="category" class="sr_only">정렬방식</label>
+                                    <select id="category" name="category" class="g_select_inner">
+                                        <option value="cate1" selected="selected">낮은 가격순</option>
+                                        <option value="cate2">높은 가격순</option>
+                                        <option value="cate3">추천순</option>
+                                        <option value="cate4">최신순</option>
+                                        <option value="cate5">인기순</option>
+                                        <option value="cate6">상품평 많은 순</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="re-search_area">
+                                <div class="g_search type2">
+                                    <input type="text" placeholder="검색어를 입력하세요">
+                                </div> 
+                                <button class="g_btn btn_filter" type="button">검색필터 펼치기</button>
+                            </div>
+                        </div>
+                        <fieldset class="filter_wrapper">
+                            <legend>원하는 항목을 체크하세요.</legend>
+                            <div>
+                                <div class="item">
+                                    <div class="tit">대분류</div>
+                                    <div class="group">
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate1" name="cate1" checked="">
+                                            <label for="cate1">카테고리1</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate2" name="cate2" checked="">
+                                            <label for="cate2">카테고리2</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate3" name="cate3">
+                                            <label for="cate3">카테고리3</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate4" name="cate4">
+                                            <label for="cate4">카테고리4</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate5" name="cate5">
+                                            <label for="cate5">카테고리5</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate6" name="cate6">
+                                            <label for="cate6">카테고리6</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate7" name="cate7">
+                                            <label for="cate7">카테고리7</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate8" name="cate8">
+                                            <label for="cate8">카테고리8</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate9" name="cate9">
+                                            <label for="cate9">카테고리9</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="cate10" name="cate10">
+                                            <label for="cate10">카테고리10</label>
+                                        </span>
+                                    </div>
+                                </div>
+        
+                                <div class="item">
+                                    <div class="tit">연령</div>
+                                    <div class="group">
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="age10" name="age10" checked="">
+                                            <label for="age10">10대</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="age2030" name="age2030">
+                                            <label for="age2030">20~30대</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="age4050" name="age4050">
+                                            <label for="age4050">40~50대</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="age60" name="age60">
+                                            <label for="age60">60대이상</label>
+                                        </span>
+                                    </div>
+                                </div>
+        
+                                <div class="item">
+                                    <div class="tit">성별</div>
+                                    <div class="group">
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="male" name="male" checked="">
+                                            <label for="male">남성</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="female" name="female">
+                                            <label for="female">여성</label>
+                                        </span>
+                                    </div>
+                                </div>
+        
+                                <div class="item">
+                                    <div class="tit">금액대</div>
+                                    <div class="group">
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="price5" name="price5" checked="">
+                                            <label for="price5">5만원 이하</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="price5_10" name="price5_10" checked="">
+                                            <label for="price5_10">5~10만원</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="price10_20" name="price10_20">
+                                            <label for="price10_20">10~20만원</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="price20_30" name="price20_30">
+                                            <label for="price20_30">20~30만원</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="price30_40" name="price30_40">
+                                            <label for="price30_40">30~40만원</label>
+                                        </span>
+                                        <span class="checkbox_ui type2">
+                                            <input type="checkbox" id="price40" name="price40">
+                                            <label for="price40">40만원 이상</label>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btns">
+                                <button class="g_btn typeA1"><span>초기화</span></button>
+                                <button class="g_btn typeA2"><span>결과보기</span></button>
+                            </div>
+                        </fieldset>
+                    </section>
+                    <!--// 검색필터 -->
+
+                    <!-- 검색결과 -->
+                    <section class="result_content">
+                        <!-- 검색결과 있는 경우 -->
+                        <div class="result_inner">
+                            <!-- 상품 -->
+                            <div class="result_part">
+                                <h4 class="part_title">상품</h4>
+                                <div class="g_product_list">
+                                    <div class="list_wrapper col4">
+                                        <ul>
+                                            <li>
+                                                <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                                    <div class="thumb_wrapper">
+                                                        <div class="edge"></div>
+                                                        <div class="thumb" style="background-image:url('/assets/images/@temp/product1.jpg')"></div>
+                                                        <div class="soldout">SOLD OUT</div>
+                                                        <span class="tag_type2 ranking best">BEST 상품</span>
+                                                        <div class="cert">
+                                                            <span class="flag flag_low_carbon">저탄소</span>
+                                                            <span class="flag flag_non_pesticide">유기농</span>
+                                                            <span class="flag flag_gap">우수관리인증</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <div class="info">
+                                                            <span class="code">(51-01)</span>
+                                                            <span class="tag_wrapper">
+                                                                <span class="tag_type1 color1">냉장</span>
+                                                                <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                                <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                                <!-- <span class="tag_type1 color4">경인</span> -->
+                                                                <!-- <span class="tag_type1 color5">영남</span> -->
+                                                                <!-- <span class="tag_type1 color6">센터</span> -->
+                                                            </span>
+                                                        </div>
+                                                        <p class="name">현대명품 한우 No.9</p>
+            
+                                                        <!-- 할인가격 있는 경우 -->
+                                                        <!-- <div class="price_wrapper">
+                                                            <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
+                                                            <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
+                                                        </div> -->
+            
+                                                        <!-- 할인가격 없는 경우 -->
+                                                        <div class="price_wrapper">
+                                                            <p class="price"><span class="em">120,000</span>원</p>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                                    <div class="thumb_wrapper">
+                                                        <div class="edge"></div>
+                                                        <div class="thumb" style="background-image:url('/assets/images/@temp/product1.jpg')"></div>
+                                                        <!-- <div class="soldout">SOLD OUT</div> -->
+                                                        <span class="tag_type2 ranking best">BEST 상품</span>
+                                                        <div class="cert">
+                                                            <span class="flag flag_low_carbon">저탄소</span>
+                                                            <span class="flag flag_non_pesticide">유기농</span>
+                                                            <span class="flag flag_gap">우수관리인증</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <div class="info">
+                                                            <span class="code">(51-01)</span>
+                                                            <span class="tag_wrapper">
+                                                                <!-- <span class="tag_type1 color1">냉장</span> -->
+                                                                <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                                <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                                <!-- <span class="tag_type1 color4">경인</span> -->
+                                                                <!-- <span class="tag_type1 color5">영남</span> -->
+                                                                <!-- <span class="tag_type1 color6">센터</span> -->
+                                                            </span>
+                                                        </div>
+                                                        <p class="name">인산자죽염으로 만든 영광 참굴비 10마리</p>
+            
+                                                        <!-- 할인가격 있는 경우 -->
+                                                        <!-- <div class="price_wrapper">
+                                                            <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
+                                                            <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
+                                                        </div> -->
+            
+                                                        <!-- 할인가격 없는 경우 -->
+                                                        <div class="price_wrapper">
+                                                            <p class="price"><span class="em">120,000</span>원</p>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="btn_detail">
+                                                    <div class="thumb_wrapper">
+                                                        <div class="edge"></div>
+                                                        <div class="thumb" style="background-image:url('/assets/images/@temp/product1.jpg')"></div>
+                                                        <!-- <div class="soldout">SOLD OUT</div> -->
+                                                        <span class="tag_type2 ranking best">BEST 상품</span>
+                                                        <div class="cert">
+                                                            <span class="flag flag_low_carbon">저탄소</span>
+                                                            <span class="flag flag_non_pesticide">유기농</span>
+                                                            <span class="flag flag_gap">우수관리인증</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <div class="info">
+                                                            <span class="code">(51-01)</span>
+                                                            <span class="tag_wrapper">
+                                                                <span class="tag_type1 color1">냉장</span>
+                                                                <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                                <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                                <!-- <span class="tag_type1 color4">경인</span> -->
+                                                                <!-- <span class="tag_type1 color5">영남</span> -->
+                                                                <!-- <span class="tag_type1 color6">센터</span> -->
+                                                            </span>
+                                                        </div>
+                                                        <p class="name">삼도 소주</p>
+            
+                                                        <!-- 할인가격 있는 경우 -->
+                                                        <!-- <div class="price_wrapper">
+                                                            <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
+                                                            <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
+                                                        </div> -->
+            
+                                                        <!-- 할인가격 없는 경우 -->
+                                                        <div class="price_wrapper">
+                                                            <p class="price"><span class="em">120,000</span>원</p>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button class="btn_detail">
+                                                    <div class="thumb_wrapper">
+                                                        <div class="edge"></div>
+                                                        <div class="thumb" style="background-image:url('/assets/images/@temp/product1.jpg')"></div>
+                                                        <!-- <div class="soldout">SOLD OUT</div> -->
+                                                        <span class="tag_type2 ranking best">BEST 상품</span>
+                                                        <div class="cert">
+                                                            <span class="flag flag_low_carbon">저탄소</span>
+                                                            <span class="flag flag_non_pesticide">유기농</span>
+                                                            <span class="flag flag_gap">우수관리인증</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="detail">
+                                                        <div class="info">
+                                                            <span class="code">(51-01)</span>
+                                                            <span class="tag_wrapper">
+                                                                <!-- <span class="tag_type1 color1">냉장</span> -->
+                                                                <span class="tag_type1 color2">냉동</span>
+                                                                <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                                <!-- <span class="tag_type1 color4">경인</span> -->
+                                                                <!-- <span class="tag_type1 color5">영남</span> -->
+                                                                <!-- <span class="tag_type1 color6">센터</span> -->
+                                                            </span>
+                                                        </div>
+                                                        <p class="name">인산자죽염으로 만든 영광굴비</p>
+            
+                                                        <!-- 할인가격 있는 경우 -->
+                                                        <!-- <div class="price_wrapper">
+                                                            <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
+                                                            <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
+                                                        </div> -->
+            
+                                                        <!-- 할인가격 없는 경우 -->
+                                                        <div class="price_wrapper">
+                                                            <p class="price"><span class="em">120,000</span>원</p>
+                                                        </div>
+                                                    </div>
+                                                </button>
+                                            </li>
+                                        </ul>
+            
+                                        <div class="g_pagination">
+                                            <!-- pc용 -->
+                                            <div class="pagination pc-only" role="pagination">
+                                                <button class="first">첫 페이지로 이동</button>
+                                                <button class="prev active">이전 페이지로 이동</button>
+                                                <button>1</button>
+                                                <button class="active">2</button>
+                                                <button>3</button>
+                                                <button>4</button>
+                                                <button>5</button>
+                                                <button>6</button>
+                                                <button class="next active">다음 페이지로 이동</button>
+                                                <button class="last active">마지막 페이지로 이동</button>
+                                            </div>
+            
+                                            <!-- 모바일용 -->
+                                            <button class="g_btn typeA1 wide btn_more mo-only"><span>더보기</span></button>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// 상품 -->
+        
+                            <!-- 이야기 STORY -->
+                            <div class="result_part">
+                                <h4 class="part_title">이야기 STORY</h4>
+                                <section class="thumb_list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <picture>
+                                                    <div class="thumb">
+                                                        <img src="https://picsum.photos/500/500" alt="썸네일이미지" />
+                                                    </div>
+                                                </picture>
+                                                <div class="list_detail">
+                                                    <span class="cate">더 현대적인 만남</span>
+                                                    <p class="desc">
+                                                        절기의 풍요를 담은 한가위 식탁,<br>
+                                                        전통 도자기 도예가 신경균 &<br>
+                                                        자연요리연구가 임계화
+                                                    </p>
+                                                </div>
+                                                <div class="thumb_icon">
+                                                    <div class="icon_wrapper">
+                                                        <span class="blind">바로가기</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <picture>
+                                                    <div class="thumb">
+                                                        <img src="https://picsum.photos/500/501" alt="썸네일이미지" />
+                                                    </div>
+                                                </picture>
+                                                <div class="list_detail">
+                                                    <span class="cate">더 현대적인 만남</span>
+                                                    <p class="desc">
+                                                        만남에서 해법을 찾는<br>
+                                                        바둑의 전설, 이세돌 프로
+                                                    </p>
+                                                </div>
+                                                <div class="thumb_icon">
+                                                    <div class="icon_wrapper">
+                                                        <span class="blind">바로가기</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <picture>
+                                                    <div class="thumb">
+                                                        <img src="https://picsum.photos/500/502" alt="썸네일이미지" />
+                                                    </div>
+                                                </picture>
+                                                <div class="list_detail">
+                                                    <span class="cate">더 현대적인 선물</span>
+                                                    <p class="desc">
+                                                        더 좋은 선물을 위한 추석 트렌드
+                                                    </p>
+                                                </div>
+                                                <div class="thumb_icon">
+                                                    <div class="icon_wrapper">
+                                                        <span class="blind">바로가기</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="g_pagination">
+                                        <!-- pc용 -->
+                                        <div class="pagination pc-only" role="pagination">
+                                            <button class="first">첫 페이지로 이동</button>
+                                            <button class="prev active">이전 페이지로 이동</button>
+                                            <button>1</button>
+                                            <button class="active">2</button>
+                                            <button>3</button>
+                                            <button>4</button>
+                                            <button>5</button>
+                                            <button>6</button>
+                                            <button class="next active">다음 페이지로 이동</button>
+                                            <button class="last active">마지막 페이지로 이동</button>
+                                        </div>
+            
+                                        <!-- 모바일용 -->
+                                        <button class="g_btn typeA1 wide btn_more mo-only"><span>더보기</span></button>
+                                    </div>
+            
+                                </section>
+                            </div>
+                            <!--// 이야기 STORY -->
+        
+                            <!-- 이벤트 EVENT -->
+                            <div class="result_part">
+                                <h4 class="part_title">이벤트 EVENT</h4>
+                                <section class="thumb_list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <picture>
+                                                    <div class="thumb">
+                                                        <img src="https://picsum.photos/500/503" alt="썸네일이미지" />
+                                                    </div>
+                                                </picture>
+                                                <div class="list_detail">
+                                                    <span class="cate">더 현대적인 만남</span>
+                                                    <p class="desc">
+                                                        절기의 풍요를 담은 한가위 식탁,<br>
+                                                        전통 도자기 도예가 신경균 &<br>
+                                                        자연요리연구가 임계화
+                                                    </p>
+                                                </div>
+                                                <div class="thumb_icon">
+                                                    <div class="icon_wrapper">
+                                                        <span class="blind">바로가기</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <picture>
+                                                    <div class="thumb">
+                                                        <img src="https://picsum.photos/500/504" alt="썸네일이미지" />
+                                                    </div>
+                                                </picture>
+                                                <div class="list_detail">
+                                                    <span class="cate">더 현대적인 만남</span>
+                                                    <p class="desc">
+                                                        만남에서 해법을 찾는<br>
+                                                        바둑의 전설, 이세돌 프로
+                                                    </p>
+                                                </div>
+                                                <div class="thumb_icon">
+                                                    <div class="icon_wrapper">
+                                                        <span class="blind">바로가기</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <picture>
+                                                    <div class="thumb">
+                                                        <img src="https://picsum.photos/500/505" alt="썸네일이미지" />
+                                                    </div>
+                                                </picture>
+                                                <div class="list_detail">
+                                                    <span class="cate">더 현대적인 선물</span>
+                                                    <p class="desc">
+                                                        더 좋은 선물을 위한 추석 트렌드
+                                                    </p>
+                                                </div>
+                                                <div class="thumb_icon">
+                                                    <div class="icon_wrapper">
+                                                        <span class="blind">바로가기</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+            
+                                    <div class="g_pagination">
+                                        <!-- pc용 -->
+                                        <div class="pagination pc-only" role="pagination">
+                                            <button class="first">첫 페이지로 이동</button>
+                                            <button class="prev active">이전 페이지로 이동</button>
+                                            <button>1</button>
+                                            <button class="active">2</button>
+                                            <button>3</button>
+                                            <button>4</button>
+                                            <button>5</button>
+                                            <button>6</button>
+                                            <button class="next active">다음 페이지로 이동</button>
+                                            <button class="last active">마지막 페이지로 이동</button>
+                                        </div>
+            
+                                        <!-- 모바일용 -->
+                                        <button class="g_btn typeA1 wide btn_more mo-only"><span>더보기</span></button>
+                                    </div>
+            
+                                </section>
+                            </div>
+                            <!--// 이벤트 EVENT -->
+                        </div>
+                        <!--// -->
+
+                        <!-- 검색결과 없는 경우 -->
+                        <!-- <div class="no_result">
+                            <span class="txt1">검색 결과가 없습니다.</span>
+                        </div> -->
+                        <!--// -->
+                    </section>
+                    <!--// 검색결과 -->
+
+                    <!-- 배너영역 -->
+                    <section class="bottom_banner">
+                        <div class="banner_inner">
+                            <a href="#">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="/assets/images/search/banner1_mo.jpg">
+                                    <img src="/assets/images/search/banner1_pc.jpg" alt="현대백화점 상품권으로, 더 풍요로운 한가위">
+                                </picture>
+                            </a>
+                        </div>
+                    </section>
+                    <!--// 배너영역 -->
+
+                </div>
+
+            </div>
+            <div class="sub_bottom_blank1"></div>
+            <!----- 컨텐츠 (e) ----->
+        </div>
+    </div>
+    <!--// subpage contents -->
+    
+    <!-- floating button -->
+    <div id="pageTop">
+	<div class="inner">
+		<button type="button" class="btn_top" title="페이지 상단으로 이동"><span>TOP</span></button>
+	</div>
+</div>
+    <!--// floating button -->
+
+    <!-- footer -->
+    <footer id="footer">
+	<div class="ft_row">
+		<div class="ft_logo"><span class="sr_only">THE HYUNDAI</span></div>
+		<div class="ft_copy">© Hyundai Department Store. All rights reserved.</div>
+	</div>
+</footer>
+
+
+    <!--// footer -->
+
+    <!----- 팝업 (s) ----->
+    <!----- 팝업 (e) ----->
+
+    <script>
+        $(function(){
+            commonPub.customSelectbox();
+            page.search.onLoad();
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index,nofollow" />
+<meta name="format-detection" content="telephone=no" />
+<title>The HYUNDAI 명절 디지털 가이드북</title>
+<!-- <meta name="title" content="site title" />
+<meta name="keywords" content="site keyword" />
+<meta name="subject" content="site subject" />
+<meta name="description" content="site description" />
+<meta name="author" content="site author" />
+<meta name="copyright" content="site copyright" />
+<meta name="writer" content="site writer" /> -->
+
+<link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
+<link rel="stylesheet" href="/assets/css/swiper-8.3.1.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="/assets/favicon/favicon_16.svg">
+<link rel="icon" href="/favicon_16.svg">
+<!-- Libraries -->
+<script src="/assets/js/libs/jquery-3.6.0.js"></script>
+<script src="/assets/js/libs/jquery-ui.min.js"></script>
+<script src="/assets/js/libs/swiper-8.3.1.min.js"></script>
+<script src="/assets/js/libs/gsap.min.js"></script>
+<script src="/assets/js/libs/ScrollTrigger.min.js"></script>
+<script src="/assets/js/libs/ScrollToPlugin.min.js"></script>
+<script src="/assets/js/libs/lenis.min.js"></script>
+<!--// -->
+<script src="/assets/js/common-pub.js"></script>
+<script src="/assets/js/page-pub.js"></script>
+
+
+<script>
+$(function(){
+    commonPub.common();
+})
+</script>
+
+<!-- favicon -->
+<!-- <link rel="shortcut icon" href="/common/img/common/favicon.ico">  -->
+</head>
+ 
+<body>
+    <!-- header -->
+    <div class="skip_navi">
+    <ul>
+        <li><a href="#contents">본문 바로가기</a></li>
+        <li><a href="#gnb">주메뉴 바로가기</a></li>
+        <li><a href="#footer">페이지 하단 바로가기</a></li>
+    </ul>
+</div>
+
+
+<header id="header">
+	<div class="hd_wrapper">
+		<div class="logo_wrapper">
+			<div class="logo_bundle">
+				<h1 class="hd_logo">
+					<a href="#" class="btn_logo"><span class="sr_only">THE HYUNDAI</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="126" height="18" viewBox="0 0 126 18" fill="none">
+							<path d="M124.341 16.4264V0.714194H121.04L121.68 1.89424V16.4264H124.341ZM85.8363 16.4264V0.714194H83.0843C83.3321 1.13541 83.5395 1.5814 83.7033 2.0456V11.7599L76.3103 0.714539H73.0294L73.923 2.09582V16.4264H76.0343V5.3509L83.4699 16.4264H85.8363ZM69.0535 13.9801V0.707612H65.738L66.4253 1.89424V13.8138C65.7353 14.2842 64.9306 14.5356 64.1078 14.5377C63.6554 14.5247 63.2099 14.4179 62.7969 14.2236C62.384 14.0292 62.0118 13.751 61.7017 13.4051C61.3908 13.0589 61.1481 12.6517 60.9874 12.2069C60.8268 11.7621 60.7514 11.2884 60.7655 10.813V0.685791H57.4628L58.096 1.87103V11.6519C58.0903 12.3181 58.2109 12.979 58.4509 13.5959C58.6909 14.2128 59.0454 14.7735 59.4938 15.2453C59.9417 15.7163 60.4747 16.0888 61.0615 16.3411C61.6483 16.5934 62.2772 16.7203 62.9114 16.7146C64.8842 16.7146 66.0542 15.9921 67.7254 14.9572C68.2069 14.6604 68.6669 14.3267 69.1014 13.9586M54.4787 0.714194H51.0043L51.3965 1.89424L48.2807 7.58596L44.5525 0.714194H41.3749L46.6224 10.1611V16.4268H49.2919V10.0745L54.4787 0.714194ZM37.9214 16.4264V0.714194H34.6266L35.2532 1.89424V7.18141H29.2553V0.714194H25.9605L26.5861 1.89424V16.4264H29.2553V9.37317H35.2532V16.4268L37.9214 16.4264ZM95.961 0.707612H89.8254L90.4523 1.89424V16.4264H94.7441C96.0103 16.4309 97.2529 16.0675 98.3343 15.3766C98.7262 15.1532 99.1118 14.8855 99.5182 14.6541C100.578 13.9727 101.452 13.0149 102.055 11.874C102.658 10.7331 102.969 9.44796 102.958 8.14359C102.97 7.17111 102.799 6.20561 102.456 5.30243C102.112 4.39925 101.601 3.57615 100.954 2.88032C100.306 2.18597 99.5342 1.63319 98.6819 1.25394C97.8296 0.8747 96.9141 0.67653 95.9884 0.670898M98.053 13.757C97.3832 14.1436 96.6206 14.3171 95.8583 14.2561H93.1759V2.84811H94.6757C95.4248 2.86055 96.1641 3.02901 96.8506 3.34373C97.5371 3.65845 98.1571 4.11314 98.6747 4.68139C99.193 5.2505 99.5988 5.92164 99.8686 6.6561C100.138 7.39057 100.267 8.17381 100.247 8.96066C100.276 9.89364 100.09 10.8203 99.7049 11.6616C99.3193 12.5029 98.7456 13.2339 98.0326 13.7924M112.352 0.714194H109.463L109.945 1.89424L104.057 16.4264H107.194L106.781 15.2398L108.046 12.0997H114.044L115.799 16.4396H118.701L112.352 0.714194ZM108.913 9.99558L111.066 4.69351L113.212 9.99558H108.913ZM1.9247 5.30276L1.55957 6.29993H3.43078V12.6736H4.69718V6.29993H6.20359L6.5608 5.30242L1.9247 5.30276ZM12.2557 5.30276L12.5587 5.84516V8.33341H9.73804V5.30276H8.19696L8.47922 5.84516V12.6736H9.73804V9.36036H12.5584V12.6736H13.803V5.30276H12.2557ZM15.633 5.30276L15.9297 5.84516V12.6736H19.788L20.139 11.6671H17.1882V9.36036H19.788L20.139 8.35488H17.1882V6.29993H19.788L20.139 5.30242L15.633 5.30276Z" fill="#111111"/>
+						</svg>
+					</a>
+				</h1>
+				<!-- <button class="g_btn btn_arrow1 btn_toggle_gate">gate 닫기</button>
+				<div class="brand_gate">
+					<p class="brand_item"><a href="/gate">게이트 바로가기</a></p>
+				</div> -->
+			</div>
+			<nav id="gnb">
+				<ul>
+					<li class="sub_open">
+						<a href="#" class="menu recommend active">상품</a>
+						<div class="sub_wrapper">
+							<ul class="sub-list">
+								<li class="sub-item"><a href="#" class="sub-text">정육</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">과일</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">곶감 · 견과</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">버섯 · 삼</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">굴비 · 해산물</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">멸치 · 건어물</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">명인명촌</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">건강식품</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">와인 · 주류</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">커피 · 티</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">디저트 · 베이커리</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">그로서리</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">장 · 젓갈 · 반찬</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">리빙</a></li>
+								<li class="sub-item"><a href="#" class="sub-text">상품권</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#" class="menu">배송안내</a></li>
+					<li><a href="#" class="menu">이벤트</a></li>
+					<li><a href="#" class="menu">스토리</a></li>
+				</ul>
+			</nav>
+			<div class="hd_search">
+				<!-- 검색 버튼 -->
+				<div class="g_search2">
+					<button class="btn_search search_layer_open" onclick="commonPub.searchLayerOpen();">
+						<span class="txt">검색어를 입력하세요</span>
+						<span class="icon">검색</span>
+					</button>
+				</div>
+				<!--// 검색 버튼 -->
+
+				<!-- 검색 레이어 -->
+				<div class="search_layer_wrapper" id="focus-start" tabindex="0">
+					<div class="layer_content">
+						<div class="layer_inner">
+							<div class="layer_header">
+								<p class="title">검색</p>
+							</div>
+							<div class="search_area">
+								<div class="g_search type1">
+									<input type="text" placeholder="검색어를 입력하세요">
+								</div>
+							</div>
+							<div class="keyword_area">
+								<div class="item">
+									<p class="tit">추천 검색어</p>
+									<div class="group">
+										<div class="tag">
+											<a href="#" class="btn_link type1">명인명촌</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">현대백화점상품권 혜택</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">곡물</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">더 현대적인 만남</a>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type1">현대백화점상품권 혜택</a>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<p class="tit">최근 검색어</p>
+
+									<!-- 검색어 있을 경우 -->
+									<div class="group">
+										<div class="tag">
+											<a href="#" class="btn_link type2">명인명촌</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">현대백화점상품권 혜택</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">곡물</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">더 현대적인 만남</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">현대백화점상품권 혜택</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+										<div class="tag">
+											<a href="#" class="btn_link type2">상품권</a>
+											<button class="btn_delete">삭제</button>
+										</div>
+
+									</div>
+									<!--// 검색어 있을 경우 -->
+
+									<!-- 검색어 없을 경우 -->
+									 <!-- <div class="no_keyword">
+										<p class="text">최근 검색어가 없습니다.</p>
+									</div> -->
+									<!--// 검색어 없을 경우 -->
+								</div>
+							</div>
+							<div class="btn_area">
+								<button class="g_btn typeA1"><span>전체삭제</span></button>
+							</div>
+							<button type="button" id="focus-end" class="search_layer_close" onclick="commonPub.searchLayerClose();">
+								<span class="sr_only">검색창닫기</span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<!--// 검색 레이어 -->
+			</div>
+		</div>
+	</div>
+</header>
+
+    <!--// header -->
+
+    <!-- subpage contents -->
+    <div id="contents">
+        <div id="event">
+            
+            <!----- 컨텐츠 (s) ----->
+            <div class="subpage_wrapper">
+                
+                <div class="container w1200">
+                    <div class="event_view">
+                        <section class="board_tit">
+                            <p class="h2 tit">현대백화점 상품권</p>
+                        </section>
+
+                        <section class="editor_reset event_content">
+                            <!-- 에디터 입력 내용 -->
+                            <div class="gift_card_content">
+                                <article class="article">
+                                    <div class="gift_card_store">
+                                        <ul class="list">
+                                            <li>
+                                                <p class="name">더현대 서울 6F</p>
+                                                <p class="tel"><a href="tel:02-3277-0640">02-3277-0640-1</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">더현대 대구 8F</p>
+                                                <p class="tel"><a href="tel:053-245-222">053-245-222-3</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">압구정본점 3F</p>
+                                                <p class="tel"><a href="tel:02-3449-5252">02-3449-5252-3</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">무역센터점 10F</p>
+                                                <p class="tel"><a href="tel:02-3467-6247">02-3467-6247</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">진호점 11F</p>
+                                                <p class="tel"><a href="tel:02-2225-8994">02-2225-8994-5</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">신촌점 10F</p>
+                                                <p class="tel"><a href="tel:02-3145-2000">02-3145-2000-1</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">미아점 10F</p>
+                                                <p class="tel"><a href="tel:02-2117-3080">02-2117-3080-1</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">목동점 7F</p>
+                                                <p class="tel"><a href="tel:02-2163-3337">02-2163-3337-8</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">중동점 9F</p>
+                                                <p class="tel"><a href="tel:032-623-2800">032-623-2800-1</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">킨텍스점 9F</p>
+                                                <p class="tel"><a href="tel:031-822-2440">031-822-2440-1</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">디큐브시티 3F</p>
+                                                <p class="tel"><a href="tel:02-2210-9855">02-2210-9855-6</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">판교점 10F</p>
+                                                <p class="tel"><a href="tel:031-5170-3100">031-5170-3100-1</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">울산점 13F</p>
+                                                <p class="tel"><a href="tel:052-228-0998">052-228-0998-9</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">울산동구점 5F</p>
+                                                <p class="tel"><a href="tel:052-250-4550">052-250-4550</a></p>
+                                            </li>
+                                            <li>
+                                                <p class="name">충청점 6F</p>
+                                                <p class="tel"><a href="tel:043-909-4600">043-909-4600-1</a></p>
+                                            </li>
+                                        </ul>
+                                        
+                                        <div class="btn_area">
+                                            <a href="https://www.ehyundai.com/newPortal/GC/GC000001_V.do" class="g_btn typeA3" target="_blank"><span>자세히보기</span></a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <!--// 에디터 입력 내용 -->
+                        </section>
+
+                        <section class="btns">
+                            <a href="#" class="g_btn typeA1 go_list"><span>목록</span></a>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sub_bottom_blank1"></div>
+            <!----- 컨텐츠 (e) ----->
+        </div>
+    </div>
+    <!--// subpage contents -->
+    
+    <!-- floating button -->
+    <div id="pageTop">
+	<div class="inner">
+		<button type="button" class="btn_top" title="페이지 상단으로 이동"><span>TOP</span></button>
+	</div>
+</div>
+    <!--// floating button -->
+
+    <!-- footer -->
+    <footer id="footer">
+	<div class="ft_row">
+		<div class="ft_logo"><span class="sr_only">THE HYUNDAI</span></div>
+		<div class="ft_copy">© Hyundai Department Store. All rights reserved.</div>
+	</div>
+</footer>
+
+
+    <!--// footer -->
+
+    <!----- 팝업 (s) ----->
+    <!----- 팝업 (e) ----->
+
+    <script>
+        $(function(){
+            
+        })
+    </script>
+
+</body>
+
+</html>

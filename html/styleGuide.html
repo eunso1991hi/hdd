@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<title>The HYUNDAI 명절 디지털 가이드북 Style Guide</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
+	<link rel="stylesheet" href="/assets/css/swiper-8.3.1.min.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<!-- Libraries -->
+	<script type="text/javascript" src="/assets/js/libs/jquery-3.6.0.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/swiper-8.3.1.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/gsap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/libs/ScrollTrigger.min.js"></script>
+	<!--// -->
+	<script type="text/javascript" src="/assets/js/common-pub.js"></script>
+	<script type="text/javascript" src="/assets/js/page-pub.js"></script>
+    
+	<script type="text/javascript">
+		$(function () {
+
+			commonPub.common();
+			commonPub.customSelectbox();
+			
+		})
+	</script>
+
+	<style type="text/css">
+		div>h1 {font-family:'Pretendard';font-weight:400;font-size:30px;color:#000;}
+		div>h2 {font-family:'Pretendard';font-weight:400;font-size:20px;color:#000;text-align:center;margin:80px 0 30px 0;border-top:2px solid #333;background:#f7f7f7;padding:10px;}
+		div>h3 {font-family:'Pretendard';font-weight:400;font-size:16px;color:orangered;margin-bottom: 10px;}
+		.bg {background: #C4C4C4; padding: 15px;}
+		.desc_guide {margin-bottom: 15px;}
+		.desc_guide li {margin-bottom: 5px;font-size: 15px; color: #333;padding-left: 15px;position: relative;}
+		.desc_guide li:before {content: "";display: inline-block;width: 6px;height: 6px;background: #333;border-radius: 50%;-webkit-border-radius: 50%;position: absolute; left: 0; top: 8px;}
+		.desc_guide li .code {color: firebrick;font-size: 14px;}
+	</style>
+
+</head>
+<body>
+
+	<div style="width:100%;max-width:1372px;min-width: 320px;margin:0 auto;padding:18px;box-sizing:border-box;">
+
+		<h1>디지털 가이드북 Style Guide</h1>
+
+		<!-------------------- tag style ---------------------->
+		<h2>tag style</h2>
+		<span class="tag_type1 color1">냉장</span>
+		<span class="tag_type1 color2">냉동</span>
+		<span class="tag_type1 color3">양념육</span>
+		<span class="tag_type1 color4">경인</span>
+		<span class="tag_type1 color5">영남</span>
+		<span class="tag_type1 color6">센터</span>
+
+		<span class="tag_type2 ranking best">BEST</span>
+
+		<!-------------------- typo style ---------------------->
+		<h2>typo style</h2>
+
+		<h3>[타이틀]</h3>
+		<!-- <p class="t_tit1">t_tit1: Lorem, ipsum.</p> -->
+		
+
+		<br><br>
+		<h3>[설명구]</h3>
+		<!-- <p class="t_desc1">t_desc1: Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> -->
+		
+		<br><br>
+		<h3>[코멘트]</h3>
+		<!-- <p class="t_guide1">t_guide1: Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p> -->
+		
+		<br><br>
+		<h3>[불릿 리스트]</h3>
+		<ul class="g_bullet typeA1">
+			<li>근래 흔히 만날 수 없는 국산 자연산 새우로 태안에서 <br>조업된 우수 상품입니다.</li>
+			<li>근래 흔히 만날 수 없는 국산 자연산 새우로 태안에서 조업된 우수 상품입니다.</li>
+			<li>근래 흔히 만날 수 없는 국산 자연산 새우로 태안에서 조업된 우수 상품입니다.</li>
+		</ul>
+		<br>
+		
+		<br><br><br>
+
+
+		<!-------------------- Tab style ---------------------->
+		<h2>Tab style</h2>
+		<!-- tab -->
+		<div class="g_tab type1">
+			<div class="tab_wrapper">
+				<ul class="tab_inner">
+					<li class="tab active"><a href="#"><span>배송</span></a></li>
+					<li class="tab"><a href="#"><span>포장</span></a></li>
+					<li class="tab"><a href="#"><span>배송조회</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- // -->
+		<br><br>
+
+		<!-------------------- pagination ---------------------->
+		<h2>pagination</h2>
+		<div class="g_pagination">
+			<!-- pc용 -->
+			<span class="pagination pc-only" role="pagination">
+				<button class="first">첫 페이지로 이동</button>
+				<button class="prev active">이전 페이지로 이동</button>
+				<button>1</button>
+				<button class="active">2</button>
+				<button>3</button>
+				<button>4</button>
+				<button>5</button>
+				<button>6</button>
+				<button class="next active">다음 페이지로 이동</button>
+				<button class="last active">마지막 페이지로 이동</button>
+			</span>
+
+			<!-- 모바일용 -->
+			<button class="g_btn typeA1 wide btn_more mo-only"><span>더보기</span></button>
+		</div>
+		<br><br>
+
+
+		<!-------------------- button style ---------------------->
+		<h2>Button style</h2>
+		<h3>[typeA]</h3>
+		
+		<button class="g_btn typeA1"><span>초기화</span></button>
+		<button class="g_btn typeA2"><span>결과보기</span></button>
+		<button class="g_btn typeA3"><span>상품 자세히보기</span></button>
+		<button class="g_btn typeA4"><span>사이트 바로가기</span></button>
+		<br><br>
+		<button class="g_btn typeA1 wide"><span>더보기</span></button>
+		<br><br><br>
+
+		<h3>[typeB]</h3>
+		<button class="g_btn btn_pop_close" type="button">닫기</button>
+		<button class="g_btn btn_share" type="button">SNS 공유하기</button>
+		<button class="g_btn btn_share2" type="button">문자보내기</button>
+		<button class="g_btn btn_filter" type="button">검색필터 펼치기</button>
+		<button class="g_btn btn_map" type="button">링크열기</button>
+		<button class="g_btn btn_arrow1">gate 닫기</button>
+		<button class="g_btn btn_more1"><span>상품 자세히보기</span></button>
+
+		<!-------------------- checkbox style ---------------------->
+		<h2>Checkbox style</h2>
+		
+		<label class="checkbox_option" for="chkTemp1">
+			<input type="checkbox" id="chkTemp1">
+			<span class="option_name">5만원 이하</span>
+		</label>
+		<label class="checkbox_option" for="chkTemp2">
+			<input type="checkbox" id="chkTemp2">
+			<span class="option_name">조리가 필요한 식재료</span>
+		</label>
+		<label class="checkbox_option" for="chkTemp3">
+			<input type="checkbox" id="chkTemp3" checked>
+			<span class="option_name">친환경</span>
+		</label>
+		<br><br><br>
+
+		<span class="checkbox_ui type1">
+			<input type="checkbox" id="info1" name="">
+			<label for="info1">개인정보 수집 및 이용 동의</label>
+		</span>
+		&emsp;&emsp;
+		<span class="checkbox_ui type1 default">
+			<input type="checkbox" id="info2" name="">
+			<label for="info2">개인정보 수집 및 이용 동의</label>
+		</span>
+		
+		<br><br>
+
+		
+
+
+		<!-------------------- Radio button style ---------------------->
+		<h2>Radio button style</h2>
+
+		<div>
+			<!-- <label class="g_radio" for="rdoTemp1">
+				<input type="radio" name="rdoTemp" id="rdoTemp1" checked>
+				<span class="radio_icon"></span>
+				<span class="radio_txt">동의</span>
+			</label> -->
+
+			<br><br>
+		</div>
+		
+		<br><br>
+
+
+
+		<!-------------------- form style ---------------------->
+		<h2>Form style</h2>
+		<!-- <p class="desc_guide">- 기본 클래스 "inp"</p> -->
+		<br>
+
+		<h3>[input]</h3>
+		<div style="display: flex; gap: 20px;">
+			<input type="text" class="input_type1" placeholder="input_type1" />
+		</div>
+		<br>
+
+
+		<br><br>
+		<h3>[select]</h3>
+		<p class="desc_guide">.g_select에 width값을 정해주세요.</p>
+		<div style="display: flex; gap: 20px;">
+			<div class="g_select">
+				<span class="sr_only">방향키로 옵션을 선택해주세요.</span>
+				<label for="category" class="sr_only">소분류</label>
+				<select id="category" name="category" class="g_select_inner">
+					<option value="cate1" selected="selected">소분류1</option>
+					<option value="cate2">소분류2</option>
+					<option value="cate3">소분류3</option>
+				</select>
+			</div>
+
+		</div>
+
+		<br><br>
+		
+		<h3>[textarea]</h3>
+		<!-- textarea -->
+		<div class="textarea_type1">
+			<textarea rows="5" placeholder="내용을 입력해주세요">
+개인정보 수집 및 이용에 동의합니다.
+
+1. 개인정보 항목 : 휴대폰번호
+2. 개인정보 수집 목적 : 통신사실 확인 기록
+3. 개인정보 보유기간 :  1년간 보관
+4. 개인정보의 제공 :  현대퓨처넷
+
+개인정보 수집에 거부할 권리가 있으며 거부시 문자 수신 받을 수 없습니다.
+			</textarea>
+		</div>
+		<!-- // -->
+
+		<br>
+		
+		
+		<br><br><br><br>
+		<h3>[search]</h3>
+		<div class="g_search">
+			<input type="text" placeholder="검색어를 입력하세요">
+			<button class="icon">검색</button>
+		</div>
+		
+		<br><br>
+
+		
+		
+		<!-------------------- table style ---------------------->
+		<h2>Table style</h2>
+
+		<h3>[g_table type1]</h3>
+		<div class="g_table_wrapper">
+			
+		</div>
+		
+
+		<!-------------------- Accordion List ---------------------->
+		<h2>Accordion List</h2>
+
+		<h3>[g_accordion type1]</h3>
+		
+		
+
+		
+
+		<!-------------------- popup ---------------------->
+		<h2>popup</h2>
+		<p class="desc_guide">.pop_guide 클래스를 지우고, 고유클래스를 사용하세요.</p>
+		<br>
+
+		<button id="test" type="button" onclick="commonPub.modalPopCall('pop_sample');">
+			<span class="t_link" style="color: dodgerblue;">팝업 열기</span>
+		</button>
+		
+		<!-- 팝업 : 팝업제목 -->
+		<div class="popup_ui pop_sample" style="display: none;">
+			<div class="dim_full"></div>
+			<div class="pop_container">
+				<div class="pop_layer">
+					<div class="pop_body">
+						
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime quo mollitia id ipsum, dicta aspernatur at commodi dolorum debitis recusandae vitae tempora quisquam dolor maiores, sed illum iure natus odio.
+						
+					</div>
+					<button class="btn_pop_close" type="button" onclick="commonPub.layerPopClose(this);">
+						<span class="sr_only">팝업닫기</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<!--// 팝업 : 팝업제목 -->
+
+
+
+
+
+	</div>
+	
+</body>
+</html>
