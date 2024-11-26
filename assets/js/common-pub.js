@@ -28,6 +28,7 @@ var commonPub = {
 
 		} , 0);
 
+		commonPub.closeBubblePop();
 
 		// 터치 디바이스 구분
 		if (commonPub.isMobile() === true) {
@@ -38,9 +39,6 @@ var commonPub = {
 		}
 
 	},
-
-
-
 	// gnb
 	gnbFunc : function(){
 
@@ -298,6 +296,8 @@ var commonPub = {
 			$(this).addClass('active');
 			// tabindex 속성 추가
 			$(this).attr('tabindex','0').focus();
+
+			$(this).find('.bubble_pop').addClass('active');
 		})
 
 		commonPub.setLayerPopHeight(popName);
@@ -359,6 +359,15 @@ var commonPub = {
 		setTimeout(function(){
 			$('.focus-on').eq(popIdx).removeClass('focus-on');
 		},100);
+	},
+
+	closeBubblePop : function() {
+		var btnBubblePopClose = $('.btn_bubblepop_close');
+
+		btnBubblePopClose.on('click', function () {
+			var bubblePop = $(this).parents('.bubble_pop');
+			bubblePop.removeClass('active');
+		});
 	},
 
 	// 팝업 dim 클릭시 닫기

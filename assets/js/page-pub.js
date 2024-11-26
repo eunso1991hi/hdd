@@ -398,14 +398,14 @@ var page = {
 				if (isPlaying) {
 						// 재생 중이면 일시정지
 						swiper1.autoplay.stop();
-						//swiper2.autoplay.stop();
+						// swiper2.autoplay.stop();
 						$(this).addClass('paused'); // 버튼에 'paused' 클래스 추가
 						$(this).find('.btn-text').text('재생'); // 버튼 텍스트 변경
 						isPlaying = false;
 					} else {
 					// 일시정지 상태면 재생
 					swiper1.autoplay.start();
-					//swiper2.autoplay.start();
+					// swiper2.autoplay.start();
 					$(this).removeClass('paused'); // 'paused' 클래스 제거
 					$(this).find('.btn-text').text('일시정지'); // 버튼 텍스트 변경
 					isPlaying = true;
@@ -448,6 +448,9 @@ var page = {
 		onLoad : function(){
 			this.recKeyword();
 			this.subNav();
+			this.formButtonUi();
+			this.dataFinder();
+			this.kvActive();
 			this.popThumb();
 		},
 
@@ -458,7 +461,6 @@ var page = {
 				$(this).closest('.item').find('.group').slideToggle(200);
 			});
 		},
-
 		// 추천상품 키워드 선택 : 웹버전에서 모두 노출
 		recKeywordOpen : function(){
 			$('.rec_keyword .item .group').show();
@@ -467,6 +469,38 @@ var page = {
 		recKeywordClose : function(){
 			$('.rec_keyword .item .group').hide();
 			$('.rec_keyword .item .btn_open').removeClass('on');
+		},
+
+		formButtonUi : function() {
+			$('.all input[type="checkbox"]').change(function() {
+					var group = $(this).attr('name');
+					if ($(this).is(':checked')) {
+							$('input[name="' + group + '"]').not(this).prop('checked', false);
+					}
+			});
+
+			$('input[type="checkbox"]').not('.all input[type="checkbox"]').change(function() {
+					var group = $(this).attr('name');
+					if ($(this).is(':checked')) {
+							$('.all input[name="' + group + '"]').prop('checked', false);
+					}
+			});
+		},
+		dataFinder : function() {
+			var btnFilterPrd = $('.btn_filter.product');
+
+			btnFilterPrd.off('click').on('click', function () {
+				$(this).parents('.list_header').siblings('.data-finder').stop().slideToggle(300);
+				$(this).parents('.list_header').siblings('.data-finder').toggleClass('active');
+			});
+		},
+		kvActive : function() {
+				var kvCategory= $('.k_vi.category');
+				if ($('.k_vi').length) {
+						kvCategory.addClass('active');
+				} else {
+						$('.subNavSwiper').addClass('no_k_vi');
+				}
 		},
 
 

@@ -802,6 +802,264 @@ $(function(){
     <!--// footer -->
 
     <!----- 팝업 (s) ----->
+    <div class="popup_ui type_full pop_product">
+    <div class="dim_full"></div>
+    <div class="pop_container" id="focus-start" tabindex="0">
+        <div class="pop_layer">
+            <div class="pop_body padding0">
+
+                <!-- 기본정보 영역 -->
+                <div class="prd_wrapper">
+                    <div class="thumb_wrapper">
+                        <div class="thumb_img">
+                            <div class="popThumbSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide thumb"><img src="/hdd/assets/images/@temp/product2.png" alt=""></div>
+                                    <div class="swiper-slide thumb"><img src="/hdd/assets/images/@temp/product2.png" alt=""></div>
+                                    <div class="swiper-slide thumb"><img src="/hdd/assets/images/@temp/product2.png" alt=""></div>
+                                    <div class="swiper-slide thumb"><img src="/hdd/assets/images/@temp/product2.png" alt=""></div>
+                                </div>
+                                <div class="swiper-pagination type1"></div>
+                            </div>
+                            <div class="soldout">SOLD OUT</div>
+                            <div class="cert">
+                                <span class="flag flag_low_carbon">저탄소</span>
+                                <span class="flag flag_non_pesticide">유기농</span>
+                                <span class="flag flag_gap">우수관리인증</span>
+                            </div>
+                        </div>
+                        <span class="tag_type2 ranking best">BEST 상품</span>
+                    </div>
+                    <div class="content_wrapper">
+                        <div class="top_area">
+                            <div class="info">
+                                <span class="code">51-01</span>
+                                <span class="tag_wrapper">
+                                    <span class="tag_type1 color7">매장픽업</span>
+                                    <span class="tag_type1 color1">냉장</span>
+                                    <span class="tag_type1 color2">냉동</span>
+                                    <span class="tag_type1 color3">양념육</span>
+                                    <span class="tag_type1 color4">경인</span>
+                                    <span class="tag_type1 color5">영남</span>
+                                    <span class="tag_type1 color6">센터</span>
+                                </span>
+                            </div>
+                            <div class="name_wrapper">
+                                <span class="name">인산자죽염으로 만든 영광 참굴비 10마리</span>
+                                <div class="name_button_area">
+                                    <button class="g_btn btn_share3" type="button">링크 복사하기</button>
+
+                                    <div class="g_btn_area">
+                                        <button class="g_btn btn_share2" type="button" onclick="commonPub.modalPopCall('pop_share', this);">문자보내기</button>
+                                        <div class="bubble_pop">
+                                            <div class="bubble_pop_wrap">
+                                                <p class="bubble_pop_text">이벤트 참여하고 🎉 혜택받기</p>
+                                                <button class="g_btn btn_bubblepop_close" type="button">닫기</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- 할인가격 있는 경우 -->
+                            <div class="price_wrapper">
+                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
+                                <p class="price">
+                                    <span class="p"><span class="sr_only">할인가</span><span class="em">120,000</span>원<span>
+                                    <span class="dc_period">(할인 기간 9.01~9.26)</span>
+                                </p>
+                            </div>
+
+                            <!-- 할인가격 없는 경우 -->
+                            <!-- <div class="price_wrapper">
+                                <p class="price">
+                                    <span class="p"><span class="em">120,000</span>원<span>
+                                </p>
+                            </div> -->
+
+                            <div class="desc_list">
+상품구성 : 1.9kg / 10마리
+원산지 : 국내산
+근래 흔히 만날 수 없는 국산 자연산 새우로근래 흔히 만날 수 없는 국산 자연산 새우로근래 흔히 만날 수 없는 국산 자연산 새우로근래 흔히 만날 수 없는 국산 자연산 새우로
+태안에서 조업된 우수 상품입니다.
+                            </div>
+
+                            <div class="barcode">
+                                <p class="text">※ 계산대에서 바코드를 보여주시면 편리하게 구매가 가능합니다.</p>
+                                <img src="/hdd/assets/images/@temp/barcode.png" alt="바코드 이미지">
+                            </div>
+                        </div>
+
+                        <div class="btns">
+                            <a href="#" class="g_btn typeA2" target="_blank"><span>온라인 바로가기</span></a>
+		                    <!-- <a href="#" class="g_btn typeA1" target="_blank"><span>목동점</span></a>
+                            <a href="#" class="g_btn typeA1" target="_blank"><span>판교점</span></a> -->
+                        </div>
+                    </div>
+                </div>
+                <!--// 기본정보 영역 -->
+
+                <!-- 제품상세 에디터 등록영역 -->
+                <!-- <div class="prd_detail editor_reset">
+                    <img src="/hdd/assets/images/@temp/detail.jpg" alt="">
+                </div> -->
+                <!--// -->
+            </div>
+            <button id="focus-end" class="g_btn btn_pop_close pos1" type="button" onclick="commonPub.layerPopClose(this);">팝업 닫기</button>
+        </div>
+    </div>
+</div>
+
+    <div class="popup_ui type_full pop_share">
+    <div class="dim_full"></div>
+    <div class="pop_container" id="focus-start" tabindex="0">
+        <div class="pop_layer">
+            <div class="pop_header">
+                <p class="pop_tit1">상품 공유하기</p>
+            </div>
+            <div class="pop_body">
+
+                <p class="pop_desc1">마음에 드는 상품을 공유하세요.</p>
+
+                <fieldset>
+                    <legend>휴대폰 번호, 개인정보수집 이용동의 입력</legend>
+
+                    <div class="item_wrapper">
+                        <div class="item phone">
+                            <label for="phone">받으실 휴대폰 번호</label>
+                            <input type="number" class="input_type1" inputmode="numeric" placeholder="숫자만 입력하세요" />
+                        </div>
+                        <div class="item personal">
+                            <span class="checkbox_ui type1">
+                                <input type="checkbox" id="personal_info" name="personal_info">
+                                <label for="personal_info">(필수) 개인정보수집 이용 동의</label>
+                            </span>
+                            <!-- <div class="agree" tabindex="0">
+                                개인정보 수집 및 이용에 동의합니다.<br><br>
+
+                                1. 개인정보 수집 항목 : 휴대전화 번호<br>
+                                2. 목적 : 가이드북 상품 문자메시지 전송<br>
+                                <em>3. 보유기간 : 1년</em><br><br>
+
+                                메시지 발송을 원치 않으시면 '닫기'로 거부하셔도 되나 거부 시 발송할 수 없습니다.
+                            </div> -->
+                            <div class="textarea_type1">
+                                <textarea rows="5" placeholder="" readonly>
+개인정보동의  내용도 업데이트 개인정보 수집 및 이용에 동의합니다.
+
+1. 개인정보 수집 항목 : 휴대전화번호
+2. 개인정보 수집 목적 : 명절 디지털 가이드북 상품 안내
+3. 개인정보 보유기간 :  1년 보관 또는 동의 철회 시까지
+
+명절 디지털 가이드북 상품 안내 동의를 거부할 수 있으며 거부시, 상품안내를 받으실 수 없습니다.</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="btns">
+                    <button class="g_btn typeA1" onclick="commonPub.layerPopClose(this);"><span>닫기</span></button>
+                    <button class="g_btn typeA2" onclick="commonPub.layerPopClose(this); commonPub.modalPopCall('pop_event', this);"><span>친구에게 보내기</span></button>
+                </div>
+
+            </div>
+            <button id="focus-end" class="g_btn btn_pop_close pos2" type="button" onclick="commonPub.layerPopClose(this);">팝업 닫기</button>
+        </div>
+    </div>
+</div>
+    <div class="popup_ui type_full pop_event">
+    <div class="dim_full"></div>
+    <div class="pop_container" id="focus-start" tabindex="0">
+        <div class="pop_layer">
+            <div class="pop_header">
+                <p class="pop_tit1">이벤트 참여하기</p>
+            </div>
+            <div class="pop_body">
+                <p class="pop_desc1">이벤트 응모 고객께 추첨을 통해 푸짐한 선물을 드립니다.</p>
+                <ul class="info-list module-a">
+                    <li class="info-item">
+                        <div class="info-wrap">
+                            <div class="info-head">
+                                <em class="info-title">1. 대상</em>
+                            </div>
+                            <div class="info-body">
+                                <p class="para">기간 중 선물 공유 고객</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info-item">
+                        <div class="info-wrap">
+                            <div class="info-head">
+                                <em class="info-title">2. 응모기간</em>
+                            </div>
+                            <div class="info-body">
+                                <p class="para">12.20(금)~1.9(목)</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info-item">
+                        <div class="info-wrap">
+                            <div class="info-head">
+                                <em class="info-title">3. 당첨자 발표</em>
+                            </div>
+                            <div class="info-body">
+                                <p class="para">1.17(금)</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <fieldset>
+                    <legend>휴대폰 번호, 개인정보수집 이용동의 입력</legend>
+
+                    <div class="item_wrapper">
+                        <div class="item phone">
+                            <label for="phone">받으실 휴대폰 번호</label>
+                            <input type="number" class="input_type1" inputmode="numeric" placeholder="숫자만 입력하세요" />
+                        </div>
+                        <div class="item personal">
+                            <span class="checkbox_ui type1">
+                                <input type="checkbox" id="personal_info2" name="personal_info2">
+                                <label for="personal_info2">(필수) 개인정보수집 이용 동의</label>
+                            </span>
+                            <!-- <div class="agree" tabindex="0">
+                                개인정보 수집 및 이용에 동의합니다.<br><br>
+
+                                1. 개인정보 수집 항목 : 휴대전화 번호<br>
+                                2. 목적 : 가이드북 상품 문자메시지 전송<br>
+                                <em>3. 보유기간 : 1년</em><br><br>
+
+                                메시지 발송을 원치 않으시면 '닫기'로 거부하셔도 되나 거부 시 발송할 수 없습니다.
+                            </div> -->
+                            <div class="textarea_type1">
+                                <textarea rows="5" placeholder="" readonly>
+개인정보동의  내용도 업데이트 개인정보 수집 및 이용에 동의합니다.
+
+1. 개인정보 수집 항목 : 휴대전화번호
+2. 개인정보 수집 목적 : 명절 디지털 가이드북 상품 안내
+3. 개인정보 보유기간 :  1년 보관 또는 동의 철회 시까지
+
+명절 디지털 가이드북 상품 안내 동의를 거부할 수 있으며 거부시, 상품안내를 받으실 수 없습니다.</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="info-figure">
+                    <picture>
+                        <source media="(max-width: 1023px)" srcset="/hdd/assets/images/event/img_event_detail_pc.png">
+                        <source media="(max-width: 1920px)" srcset="/hdd/assets/images/event/img_event_detail_pc.png">
+                        <img class="img" src="/hdd/assets/images/event/img_event_detail_pc.png" alt=" ">
+                    </picture>
+                </div>
+                <div class="btns">
+                    <button class="g_btn typeA1" onclick="commonPub.layerPopClose(this);"><span>닫기</span></button>
+                    <button class="g_btn typeA2" onclick="commonPub.layerPopClose(this);"><span>응모하기</span></button>
+                </div>
+
+            </div>
+            <button id="focus-end" class="g_btn btn_pop_close pos2" type="button" onclick="commonPub.layerPopClose(this);">팝업 닫기</button>
+        </div>
+    </div>
+</div>
     <!----- 팝업 (e) ----->
 
     <script>

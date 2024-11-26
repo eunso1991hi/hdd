@@ -287,25 +287,22 @@ $(function(){
                         <em class="subject">지금 가장 핫한 선물</em>
                         <span class="summary">현대백화점의 인기상품을 빠르게 확인해보세요</span>
                     </div>
-                    <div class="section-body">
+                    <!-- PC 노출 : 상품 7개씩 2줄 -->
+                    <div class="section-body pc-only">
                         <div class="hot_giftList">
                             <ul>
                                 <li>
                                     <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                        <div class="num color1">
+                                            <span class="num_text">01</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <div class="soldout">SOLD OUT</div>
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <span class="tag_type1 color2">냉동</span>
@@ -316,11 +313,6 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">현대명품 한우 No.9</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <!-- <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000 ~ 150,000</span>원</p>
-                                            </div> -->
                                             <!-- 할인가격 없는 경우 -->
                                             <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
@@ -330,20 +322,16 @@ $(function(){
                                 </li>
                                 <li>
                                     <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                        <div class="num color1">
+                                            <span class="num_text">02</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <!-- <span class="tag_type1 color1">냉장</span> -->
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -354,34 +342,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광 참굴비 10마리 인산자죽염으로 만든 영광 참굴비 10마리</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color1">
+                                            <span class="num_text">03</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <!-- <span class="tag_type1 color1">냉장</span> -->
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -392,34 +371,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">삼도 소주</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">04</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -430,34 +400,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">05</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -468,34 +429,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">06</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -506,34 +458,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">07</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -544,81 +487,29 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
-                                                <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
-                                        </div>
-                                    </button>
-                                </li>
-                                <li>
-                                    <button class="btn_detail">
-                                        <div class="thumb_wrapper">
-                                            <div class="edge"></div>
-                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
-                                            <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
-                                        </div>
-                                        <div class="detail">
-                                            <div class="info">
-                                                <span class="code">(51-01)</span>
-                                                <span class="tag_wrapper">
-                                                    <span class="tag_type1 color1">냉장</span>
-                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
-                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
-                                                    <!-- <span class="tag_type1 color4">경인</span> -->
-                                                    <!-- <span class="tag_type1 color5">영남</span> -->
-                                                    <span class="tag_type1 color6">센터</span>
-                                                </span>
-                                            </div>
-                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
                                             <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
-                                            <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                             </ul>
                         </div>
-
-                        <!--
-                            <개발자 작업 요청사항>
-                            아래 .hot_giftList는 비노출 상태이며, 더보기 버튼 클릭 시 노출됩니다.
-                        -->
                         <div class="hot_giftList">
                             <ul>
                                 <li>
                                     <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                        <div class="num color2">
+                                            <span class="num_text">08</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <!-- <span class="tag_type1 color1">냉장</span> -->
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -629,34 +520,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광 참굴비 10마리 인산자죽염으로 만든 영광 참굴비 10마리</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">09</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <!-- <span class="tag_type1 color1">냉장</span> -->
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -667,34 +549,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">삼도 소주</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">10</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -705,34 +578,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">11</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -743,34 +607,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">12</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -781,34 +636,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">13</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -819,34 +665,25 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                                 <li>
                                     <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">14</span>
+                                        </div>
                                         <div class="thumb_wrapper">
-                                            <div class="edge"></div>
                                             <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
                                             <!-- <div class="soldout">SOLD OUT</div> -->
-                                            <span class="tag_type2 ranking best">BEST 상품</span>
-                                            <div class="cert">
-                                                <span class="flag flag_low_carbon">저탄소</span>
-                                                <span class="flag flag_non_pesticide">유기농</span>
-                                                <span class="flag flag_gap">우수관리인증</span>
-                                            </div>
                                         </div>
                                         <div class="detail">
                                             <div class="info">
-                                                <span class="code">(51-01)</span>
+                                                <span class="code">51-01</span>
                                                 <span class="tag_wrapper">
                                                     <span class="tag_type1 color1">냉장</span>
                                                     <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -857,25 +694,431 @@ $(function(){
                                                 </span>
                                             </div>
                                             <p class="name">인산자죽염으로 만든 영광굴비</p>
-                                            <!-- 할인가격 있는 경우 -->
-                                            <div class="price_wrapper">
-                                                <p class="origin"><span class="sr_only">정가</span>150,000<span class="sr_only">원</span></p>
-                                                <p class="price"><span class="sr_only">할인가</span><span class="em">120,000</span>원</p>
-                                            </div>
                                             <!-- 할인가격 없는 경우 -->
-                                            <!-- <div class="price_wrapper">
+                                            <div class="price_wrapper">
                                                 <p class="price"><span class="em">120,000</span>원</p>
-                                            </div> -->
+                                            </div>
                                         </div>
                                     </button>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <!-- 모바일용 -->
-                     <div class="section-util">
-                        <button class="g_btn typeA1 wide mo-only"><span>더보기</span></button>
-                     </div>
+                    <!-- //PC 노출 : 상품 7개씩 2줄 -->
+                    <!-- MOBILE 노출 : 상품 14개 -->
+                    <div class="section-body mo-only">
+                        <div class="hot_giftList">
+                            <ul>
+                                <li>
+                                    <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                        <div class="num color1">
+                                            <span class="num_text">01</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <div class="soldout">SOLD OUT</div>
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <span class="tag_type1 color2">냉동</span>
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <!-- <span class="tag_type1 color6">센터</span> -->
+                                                </span>
+                                            </div>
+                                            <p class="name">현대명품 한우 No.9</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                        <div class="num color1">
+                                            <span class="num_text">02</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <!-- <span class="tag_type1 color1">냉장</span> -->
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <span class="tag_type1 color4">경인</span>
+                                                    <span class="tag_type1 color5">영남</span>
+                                                    <!-- <span class="tag_type1 color6">센터</span> -->
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광 참굴비 10마리 인산자죽염으로 만든 영광 참굴비 10마리</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color1">
+                                            <span class="num_text">03</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <!-- <span class="tag_type1 color1">냉장</span> -->
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <span class="tag_type1 color3">양념육</span>
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">삼도 소주</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">04</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">05</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">06</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">07</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail" onclick="commonPub.modalPopCall('pop_product', this);">
+                                        <div class="num color2">
+                                            <span class="num_text">08</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <!-- <span class="tag_type1 color1">냉장</span> -->
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <span class="tag_type1 color4">경인</span>
+                                                    <span class="tag_type1 color5">영남</span>
+                                                    <!-- <span class="tag_type1 color6">센터</span> -->
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광 참굴비 10마리 인산자죽염으로 만든 영광 참굴비 10마리</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">09</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <!-- <span class="tag_type1 color1">냉장</span> -->
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <span class="tag_type1 color3">양념육</span>
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">삼도 소주</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">10</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">11</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">12</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">13</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="btn_detail">
+                                        <div class="num color2">
+                                            <span class="num_text">14</span>
+                                        </div>
+                                        <div class="thumb_wrapper">
+                                            <div class="thumb" style="background-image:url('/hdd/assets/images/@temp/product1.jpg')"></div>
+                                            <!-- <div class="soldout">SOLD OUT</div> -->
+                                        </div>
+                                        <div class="detail">
+                                            <div class="info">
+                                                <span class="code">51-01</span>
+                                                <span class="tag_wrapper">
+                                                    <span class="tag_type1 color1">냉장</span>
+                                                    <!-- <span class="tag_type1 color2">냉동</span> -->
+                                                    <!-- <span class="tag_type1 color3">양념육</span> -->
+                                                    <!-- <span class="tag_type1 color4">경인</span> -->
+                                                    <!-- <span class="tag_type1 color5">영남</span> -->
+                                                    <span class="tag_type1 color6">센터</span>
+                                                </span>
+                                            </div>
+                                            <p class="name">인산자죽염으로 만든 영광굴비</p>
+                                            <!-- 할인가격 없는 경우 -->
+                                            <div class="price_wrapper">
+                                                <p class="price"><span class="em">120,000</span>원</p>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- //MOBILE 노출 : 상품 14개 -->
                 </div>
             </div>
             <!--// 메인 지금 가장 핫한 선물 -->
@@ -956,7 +1199,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -996,7 +1239,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -1036,7 +1279,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -1076,7 +1319,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -1116,7 +1359,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -1156,7 +1399,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -1196,7 +1439,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -1236,7 +1479,7 @@ $(function(){
                                                 </div>
                                                 <div class="detail">
                                                     <div class="info">
-                                                        <span class="code">(51-01)</span>
+                                                        <span class="code">51-01</span>
                                                         <span class="tag_wrapper">
                                                             <span class="tag_type1 color1">냉장</span>
                                                             <!-- <span class="tag_type1 color2">냉동</span> -->
@@ -1377,11 +1620,11 @@ $(function(){
                                     <button class="g_btn btn_share3" type="button">링크 복사하기</button>
 
                                     <div class="g_btn_area">
-                                        <button class="g_btn btn_share2" type="button">문자보내기</button>
-                                        <div class="bubble_pop active">
+                                        <button class="g_btn btn_share2" type="button" onclick="commonPub.modalPopCall('pop_share', this);">문자보내기</button>
+                                        <div class="bubble_pop">
                                             <div class="bubble_pop_wrap">
                                                 <p class="bubble_pop_text">이벤트 참여하고 🎉 혜택받기</p>
-                                                <button class="g_btn btn_bubblepop_close" type="button" onclick="closeBubblePop();">닫기</button>
+                                                <button class="g_btn btn_bubblepop_close" type="button">닫기</button>
                                             </div>
                                         </div>
                                     </div>
@@ -1437,6 +1680,156 @@ $(function(){
     </div>
 </div>
 
+    <div class="popup_ui type_full pop_share">
+    <div class="dim_full"></div>
+    <div class="pop_container" id="focus-start" tabindex="0">
+        <div class="pop_layer">
+            <div class="pop_header">
+                <p class="pop_tit1">상품 공유하기</p>
+            </div>
+            <div class="pop_body">
+
+                <p class="pop_desc1">마음에 드는 상품을 공유하세요.</p>
+
+                <fieldset>
+                    <legend>휴대폰 번호, 개인정보수집 이용동의 입력</legend>
+
+                    <div class="item_wrapper">
+                        <div class="item phone">
+                            <label for="phone">받으실 휴대폰 번호</label>
+                            <input type="number" class="input_type1" inputmode="numeric" placeholder="숫자만 입력하세요" />
+                        </div>
+                        <div class="item personal">
+                            <span class="checkbox_ui type1">
+                                <input type="checkbox" id="personal_info" name="personal_info">
+                                <label for="personal_info">(필수) 개인정보수집 이용 동의</label>
+                            </span>
+                            <!-- <div class="agree" tabindex="0">
+                                개인정보 수집 및 이용에 동의합니다.<br><br>
+
+                                1. 개인정보 수집 항목 : 휴대전화 번호<br>
+                                2. 목적 : 가이드북 상품 문자메시지 전송<br>
+                                <em>3. 보유기간 : 1년</em><br><br>
+
+                                메시지 발송을 원치 않으시면 '닫기'로 거부하셔도 되나 거부 시 발송할 수 없습니다.
+                            </div> -->
+                            <div class="textarea_type1">
+                                <textarea rows="5" placeholder="" readonly>
+개인정보동의  내용도 업데이트 개인정보 수집 및 이용에 동의합니다.
+
+1. 개인정보 수집 항목 : 휴대전화번호
+2. 개인정보 수집 목적 : 명절 디지털 가이드북 상품 안내
+3. 개인정보 보유기간 :  1년 보관 또는 동의 철회 시까지
+
+명절 디지털 가이드북 상품 안내 동의를 거부할 수 있으며 거부시, 상품안내를 받으실 수 없습니다.</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="btns">
+                    <button class="g_btn typeA1" onclick="commonPub.layerPopClose(this);"><span>닫기</span></button>
+                    <button class="g_btn typeA2" onclick="commonPub.layerPopClose(this); commonPub.modalPopCall('pop_event', this);"><span>친구에게 보내기</span></button>
+                </div>
+
+            </div>
+            <button id="focus-end" class="g_btn btn_pop_close pos2" type="button" onclick="commonPub.layerPopClose(this);">팝업 닫기</button>
+        </div>
+    </div>
+</div>
+    <div class="popup_ui type_full pop_event">
+    <div class="dim_full"></div>
+    <div class="pop_container" id="focus-start" tabindex="0">
+        <div class="pop_layer">
+            <div class="pop_header">
+                <p class="pop_tit1">이벤트 참여하기</p>
+            </div>
+            <div class="pop_body">
+                <p class="pop_desc1">이벤트 응모 고객께 추첨을 통해 푸짐한 선물을 드립니다.</p>
+                <ul class="info-list module-a">
+                    <li class="info-item">
+                        <div class="info-wrap">
+                            <div class="info-head">
+                                <em class="info-title">1. 대상</em>
+                            </div>
+                            <div class="info-body">
+                                <p class="para">기간 중 선물 공유 고객</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info-item">
+                        <div class="info-wrap">
+                            <div class="info-head">
+                                <em class="info-title">2. 응모기간</em>
+                            </div>
+                            <div class="info-body">
+                                <p class="para">12.20(금)~1.9(목)</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="info-item">
+                        <div class="info-wrap">
+                            <div class="info-head">
+                                <em class="info-title">3. 당첨자 발표</em>
+                            </div>
+                            <div class="info-body">
+                                <p class="para">1.17(금)</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <fieldset>
+                    <legend>휴대폰 번호, 개인정보수집 이용동의 입력</legend>
+
+                    <div class="item_wrapper">
+                        <div class="item phone">
+                            <label for="phone">받으실 휴대폰 번호</label>
+                            <input type="number" class="input_type1" inputmode="numeric" placeholder="숫자만 입력하세요" />
+                        </div>
+                        <div class="item personal">
+                            <span class="checkbox_ui type1">
+                                <input type="checkbox" id="personal_info2" name="personal_info2">
+                                <label for="personal_info2">(필수) 개인정보수집 이용 동의</label>
+                            </span>
+                            <!-- <div class="agree" tabindex="0">
+                                개인정보 수집 및 이용에 동의합니다.<br><br>
+
+                                1. 개인정보 수집 항목 : 휴대전화 번호<br>
+                                2. 목적 : 가이드북 상품 문자메시지 전송<br>
+                                <em>3. 보유기간 : 1년</em><br><br>
+
+                                메시지 발송을 원치 않으시면 '닫기'로 거부하셔도 되나 거부 시 발송할 수 없습니다.
+                            </div> -->
+                            <div class="textarea_type1">
+                                <textarea rows="5" placeholder="" readonly>
+개인정보동의  내용도 업데이트 개인정보 수집 및 이용에 동의합니다.
+
+1. 개인정보 수집 항목 : 휴대전화번호
+2. 개인정보 수집 목적 : 명절 디지털 가이드북 상품 안내
+3. 개인정보 보유기간 :  1년 보관 또는 동의 철회 시까지
+
+명절 디지털 가이드북 상품 안내 동의를 거부할 수 있으며 거부시, 상품안내를 받으실 수 없습니다.</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="info-figure">
+                    <picture>
+                        <source media="(max-width: 1023px)" srcset="/hdd/assets/images/event/img_event_detail_pc.png">
+                        <source media="(max-width: 1920px)" srcset="/hdd/assets/images/event/img_event_detail_pc.png">
+                        <img class="img" src="/hdd/assets/images/event/img_event_detail_pc.png" alt=" ">
+                    </picture>
+                </div>
+                <div class="btns">
+                    <button class="g_btn typeA1" onclick="commonPub.layerPopClose(this);"><span>닫기</span></button>
+                    <button class="g_btn typeA2" onclick="commonPub.layerPopClose(this);"><span>응모하기</span></button>
+                </div>
+
+            </div>
+            <button id="focus-end" class="g_btn btn_pop_close pos2" type="button" onclick="commonPub.layerPopClose(this);">팝업 닫기</button>
+        </div>
+    </div>
+</div>
     <!----- 팝업 (e) ----->
 
 </body>
