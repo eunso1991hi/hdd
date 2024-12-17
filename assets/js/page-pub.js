@@ -244,9 +244,10 @@ var page = {
             let remote
             if(_width > 767) {
                 for(const list of hotGiftLists) {
-                    let clone = list.querySelector('ul').cloneNode(true)
-                    clone.classList.add("clone")
-                    list.appendChild(clone)
+					//react jquery 기능 충돌로 주석
+                    // let clone = list.querySelector('ul').cloneNode(true)
+                    // clone.classList.add("clone")
+                    // list.appendChild(clone)
                     list.classList.add("cross")
                 }
                 remote = false

@@ -25,6 +25,7 @@ var commonPub = {
 			commonPub.goTop();
 			commonPub.gnbFunc();
 			commonPub.headerLogoLayer();
+            commonPub.tabList();
 
 		} , 0);
 
@@ -434,6 +435,21 @@ var commonPub = {
 			});
 		}
 	},
+
+    // Tab
+    tabList : function(tabList, tabPan){
+        var tabList = $('.tab_list li > button');
+        var tabPan = $('.tab_pannel');
+
+        tabList.on('click', function(){
+            var idx = $(this).parent().index();
+            tabList.parent('li.active').removeClass('active');
+            $(this).parent('li').addClass('active');
+
+            $('.tab_pannel.active').removeClass('active');
+            tabPan.eq(idx).addClass('active');
+        });
+    },
 
 
 
